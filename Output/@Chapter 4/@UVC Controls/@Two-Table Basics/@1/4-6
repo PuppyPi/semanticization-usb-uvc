@@ -1,0 +1,32 @@
+"Control selector","VC_VIDEO_POWER_MODE_CONTROL","","","","",""
+"Mandatory Requests","SET_CUR, GET_CUR, GET_INFO","","","","",""
+"wLength","1","","","","",""
+p93
+
+"Offset","Field","Size","Value","Description","",""
+"0","bDevicePowerMode","1","Bitmap","","",""
+	Bits D3..0 (RW)
+		Power Mode setting
+		0000B:Full power mode
+		0001B:device dependent
+		  power mode (opt.)
+		All other bits are reserved.
+	
+	Bit D4 (RO)
+		Device dependent power
+		mode supported.
+	
+	Bit D5 (RO)
+		Device uses power
+		supplied by USB.
+	
+	Bit D6 (RO)
+		Device uses power
+		supplied by Battery.
+	
+	Bit D7 (RO)
+		Device uses power
+		supplied by A.C.
+
+
+p93-94
