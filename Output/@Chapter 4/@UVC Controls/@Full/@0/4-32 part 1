@@ -1,0 +1,7 @@
+"Mandatory Requests","SET_CUR, GET_CUR, GET_MIN, GET_MAX, GET_RES,","","","","",""
+"","GET_INFO, GET_DEF","","","","",""
+"wLength","2","","","","",""
+"Offset Field","Size Value Description","","","","",""
+"0 wContrast","2 Number The setting for the attribute of the","","","","",""
+"","addressed Contrast control.","","","","",""
+"UVC 1.5 Class specification.pdf","MD5:B4BF60666927B23B109549E411C99AF2","112","60.3333333333334","632.3333333333285","481.33333333333337","89.33333333332848"

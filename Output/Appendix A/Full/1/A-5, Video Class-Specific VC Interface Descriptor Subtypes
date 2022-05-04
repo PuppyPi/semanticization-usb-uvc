@@ -1,0 +1,11 @@
+"Descriptor Subtype","Value","","","","",""
+"VC_DESCRIPTOR_UNDEFINED","0x00","","","","",""
+"VC_HEADER","0x01","","","","",""
+"VC_INPUT_TERMINAL","0x02","","","","",""
+"VC_OUTPUT_TERMINAL","0x03","","","","",""
+"VC_SELECTOR_UNIT","0x04","","","","",""
+"VC_PROCESSING_UNIT","0x05","","","","",""
+"VC_EXTENSION_UNIT","0x06","","","","",""
+"VC_ENCODING_UNIT","0x07","","","","",""
+
+p172

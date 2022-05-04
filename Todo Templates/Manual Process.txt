@@ -1,0 +1,19 @@
+I just manually copied it into a custom form so it would fit in our Stage 2 format XD''
+	+ It's just that merged cells are split simply by copying the contents into each split (sub)cell
+
+But I also created an unused "Full/0" version to have the PDF Monkey metadata of which pages and the approximate X/Y coordinates in the page of each table for posterity :3
+	(like I did with Chapter 3 for the same reason ;3 )
+
+
+==2==
+. Change PDF Monkey footers to just be page numbers
+. Undo word-wrap in the single-line parts!
+. Make sure to take care of rich text
+. Remove spurious columns from the original PDF Monkey output (eg, all the "","","") so that the columns given match up with the actual tables!
+. Correct any errors noticed
+. Make sure escaping is done right!
++ Line endings to standard! (0x0A)
+
+
+==3==
+x Correct any typos you've noticed in the original material

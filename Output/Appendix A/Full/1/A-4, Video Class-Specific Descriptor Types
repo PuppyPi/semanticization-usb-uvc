@@ -1,0 +1,9 @@
+"Descriptor Type","Value","","","","",""
+"CS_UNDEFINED","0x20","","","","",""
+"CS_DEVICE","0x21","","","","",""
+"CS_CONFIGURATION","0x22","","","","",""
+"CS_STRING","0x23","","","","",""
+"CS_INTERFACE","0x24","","","","",""
+"CS_ENDPOINT","0x25","","","","",""
+
+p171

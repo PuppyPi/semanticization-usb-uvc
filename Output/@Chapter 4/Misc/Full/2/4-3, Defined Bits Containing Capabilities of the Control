@@ -1,0 +1,23 @@
+"Bit field","Description","Bit State"
+
+"D0","1=Supports GET value requests","Capability"
+
+"D1","1=Supports SET value requests","Capability"
+
+"D2","1=Disabled due to automatic mode (under
+device control)","State"
+
+"D3","1= Autoupdate Control (see section 2.4.2.2
+""Status Interrupt Endpoint"")","Capability"
+
+"D4","1= Asynchronous Control (see sections
+2.4.2.2 ""Status Interrupt Endpoint"" and 2.4.4,
+“Control Transfer and Request Processing”)","Capability"
+
+"D5","1= Disabled due to incompatibility with
+Commit state.","State"
+
+"D7..D6","Reserved (Set to 0)","--"
+
+
+p90

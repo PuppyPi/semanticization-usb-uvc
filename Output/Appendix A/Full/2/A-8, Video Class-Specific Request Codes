@@ -1,0 +1,18 @@
+"Class-Specific Request Code","Value"
+"RC_UNDEFINED","0x00"
+"SET_CUR","0x01"
+"SET_CUR_ALL","0x11"
+"GET_CUR","0x81"
+"GET_MIN","0x82"
+"GET_MAX","0x83"
+"GET_RES","0x84"
+"GET_LEN","0x85"
+"GET_INFO","0x86"
+"GET_DEF","0x87"
+"GET_CUR_ALL","0x91"
+"GET_MIN_ALL","0x92"
+"GET_MAX_ALL","0x93"
+"GET_RES_ALL","0x94"
+"GET_DEF_ALL","0x97"
+
+p173

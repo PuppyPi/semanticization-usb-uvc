@@ -1,0 +1,10 @@
+"Control Selector","CT_DIGITAL_WINDOW_CONTROL","","","","",""
+"Mandatory Requests","SET_CUR, GET_CUR, GET_MIN, GET_MAX, GET_DEF","","","","",""
+"wLength","12","","","","",""
+"UVC 1.5 Class specification.pdf","MD5:B4BF60666927B23B109549E411C99AF2","107","70.33333333333334","199.0","452.0","45.33333333332848"
+
+"Offse
+t","Field","Size","Value","","",""
+"0","wWindow_Top","2","Number","","",""
+"2","wWindow_Left","2","Number","","",""
+"UVC 1.5 Class specification.pdf","MD5:B4BF60666927B23B109549E411C99AF2","107","69.66666666666669","114.33333333332848","242.66666666666669","86.0"

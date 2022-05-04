@@ -1,0 +1,18 @@
+"Control Selector","EU_QUANTIZATION_PARAMS_CONTROL","","","","",""
+"Mandatory Requests","SET_CUR, GET_CUR, GET_MAX, GET_MIN, GET_DEF,
+GET_INFO, GET_LEN, GET_RES","","","","",""
+"wLength","6","","","","",""
+"Offset","Field","Size","Value","Description","",""
+"0","wQpPrime_I","2","Number","Only applicable in constant QP rate-control mode.
+Use this parameter to set/get QP for I frames. The
+details on how to interpret this number is located in
+the appropriate payload specification.","",""
+"2","wQpPrime_P","2","Number","Only applicable in constant QP rate-control mode.
+Use this parameter to set/get QP for P frames. The
+details on how to interpret this number is located in
+the appropriate payload specification.","",""
+"4","wQpPrime_B","2","Number","Only applicable in constant QP rate control mode.
+Use this parameter to set/get QP for B frames. The
+details on how to interpret this number is located in
+the appropriate payload specification.","",""
+"UVC 1.5 Class specification.pdf","MD5:B4BF60666927B23B109549E411C99AF2","137","65.00000000000006","395.6666666666715","461.3333333333333","274.0"

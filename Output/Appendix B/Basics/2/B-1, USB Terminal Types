@@ -1,0 +1,24 @@
+"Terminal Type","Code","I/O","Description"
+
+"TT_VENDOR_SPECIFIC","0x0100","I/O"
+	A Terminal dealing with a
+	signal carried over a
+	vendor-specific interface.
+	The vendor-specific
+	interface descriptor must
+	contain a field that
+	references the Terminal.
+
+"TT_STREAMING","0x0101","I/O"
+	A Terminal dealing with a
+	signal carried over an
+	endpoint in a
+	VideoStreaming interface.
+	The VideoStreaming
+	interface descriptor points to
+	the associated Terminal
+	through the bTerminalLink
+	field.
+
+
+p177

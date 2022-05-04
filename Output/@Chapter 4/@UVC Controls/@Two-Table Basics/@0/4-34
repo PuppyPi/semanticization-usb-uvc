@@ -1,0 +1,9 @@
+"Control Selector","PU_GAIN_CONTROL","","","","",""
+"Mandatory Requests","SET_CUR, GET_CUR, GET_MIN, GET_MAX, GET_RES,
+GET_INFO, GET_DEF","","","","",""
+"wLength","2","","","","",""
+"UVC 1.5 Class specification.pdf","MD5:B4BF60666927B23B109549E411C99AF2","112","59.66666666666674","214.33333333334303","481.33333333333326","59.33333333332848"
+
+"Offset","Field","Size","Value","","",""
+"0","wGain","2","Number","","",""
+"UVC 1.5 Class specification.pdf","MD5:B4BF60666927B23B109549E411C99AF2","112","59.00000000000006","169.66666666665697","269.3333333333333","48.66666666667152"

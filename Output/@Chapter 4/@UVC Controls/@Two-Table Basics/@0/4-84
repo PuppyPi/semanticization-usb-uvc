@@ -1,0 +1,10 @@
+"Control Selector","VS_UPDATE_FRAME_SEGMENT_CONTROL","","","","",""
+"Mandatory Requests","SET_CUR, GET_CUR, GET_MIN, GET_MAX, GET_RES,
+GET_INFO, GET_DEF","","","","",""
+"wLength","2","","","","",""
+"UVC 1.5 Class specification.pdf","MD5:B4BF60666927B23B109549E411C99AF2","169","58.5","613.0","487.0","64.0"
+
+"Offset","Field","Size","Value","","",""
+"0","bStartFrameSegment","1","Number","","",""
+"1","bEndFrameSegment","1","Number","","",""
+"UVC 1.5 Class specification.pdf","MD5:B4BF60666927B23B109549E411C99AF2","169","58.5","542.0","271.0","78.0"

@@ -1,0 +1,7 @@
+"Offset","Field","Size","Value","Description","",""
+"0","bLength","1","Number","Size of this descriptor, in bytes: 5","",""
+"1","bDescriptorType","1","Constant","CS_ENDPOINT descriptor type","",""
+"2","bDescriptorSubType","1","Constant","EP_INTERRUPT descriptor type","",""
+"3","wMaxTransferSize","2","Number","Maximum interrupt structure size this
+endpoint is capable of sending.","",""
+"UVC 1.5 Class specification.pdf","MD5:B4BF60666927B23B109549E411C99AF2","75","59.5","203.0","483.0","95.0"

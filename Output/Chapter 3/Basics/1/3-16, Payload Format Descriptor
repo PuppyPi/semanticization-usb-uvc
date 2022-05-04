@@ -1,0 +1,15 @@
+"Payload Format Descriptor","Document","","","","",""
+
+"Uncompressed Video","USB_Video_Payload_Uncompressed","","","","",""
+"MJPEG Video","USB_Video_Payload_MJPEG","","","","",""
+"MPEG1-SS","USB_Video_Payload_Stream_Based","","","","",""
+"MPEG2-PS","USB_Video_Payload_Stream_Based","","","","",""
+"MPEG-2 TS","USB_Video_Payload_MPEG2-TS","","","","",""
+"H.264","USB_Video_Payload_H264","","","","",""
+"VP8","USB_Video_Payload_VP8","","","","",""
+"SMTPE VC1","USB_Video_Payload_MPEG2-TS","","","","",""
+"MPEG-4 SL","USB_Video_Payload_MPEG2-TS","","","","",""
+"DV","USB_Video_Payload_DV","","","","",""
+"Vendor Defined","USB_Video_Payload_Stream_Based or USB_Video_Payload_Frame_Based","","","","",""
+
+p80-81

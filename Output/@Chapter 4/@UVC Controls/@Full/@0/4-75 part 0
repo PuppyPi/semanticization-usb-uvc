@@ -1,0 +1,35 @@
+"Control Selector","VS_PROBE_CONTROL
+VS_COMMIT_CONTROL","","","","",""
+"Mandatory Requests","See tables below","","","","",""
+"wLength","48","","","","",""
+"Offse
+t","Field","Size","Value","Description","",""
+"0","bmHint","2","Bitmap","Bitfield control indicating to the function
+what fields shall be kept fixed (indicative
+only):
+D0: dwFrameInterval
+D1: wKeyFrameRate
+D2: wPFrameRate
+D3: wCompQuality
+D4: wCompWindowSize
+D15..5: Reserved (0)
+The hint bitmap indicates to the video
+streaming interface which fields shall be
+kept constant during stream parameter
+negotiation. For example, if the selection
+wants to favor frame rate over quality,
+the dwFrameInterval bit will be set (1).
+This field is set by the host, and is read-
+only for the video streaming interface.","",""
+"2","bFormatIndex","1","Number","Video format index from a Format
+descriptor for this video interface.
+Select a specific video stream format by
+setting this field to the one-based index
+of the associated Format descriptor. To
+select the first format defined by a
+device, a value one (1) is written to this
+field. This field must be supported even
+if only one video format is supported by
+the device.
+This field is set by the host.","",""
+"UVC 1.5 Class specification.pdf","MD5:B4BF60666927B23B109549E411C99AF2","149","58.5","142.66666666667152","487.0","532.0"

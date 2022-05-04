@@ -1,0 +1,41 @@
+"bmRequestType","bRequest","wValue","wIndex","wLength","Data"
+
+"00100001","SET_CUR","CS","Unit or
+Terminal ID
+and
+Interface","Length of
+parameter
+block","Parameter
+block"
+
+"10100001","GET_CUR
+GET_MIN
+GET_MAX
+GET_RES
+GET_INFO
+GET_DEF","CS","Unit or
+Terminal ID
+and
+Interface","Length of
+parameter
+block","Parameter
+block"
+
+"00100001","SET_CUR_ALL","Set to 0","Unit or
+Terminal ID","Length of
+parameter
+block","Parameter
+block"
+
+"10100001","GET_CUR_ALL
+GET_MIN_ALL
+GET_MAX_ALL
+GET_RES_ALL
+GET_DEF_ALL","Set to 0","Unit or
+Terminal ID","Length of
+parameter
+block","Parameter
+block"
+
+
+p95

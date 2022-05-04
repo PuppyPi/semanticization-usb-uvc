@@ -1,0 +1,12 @@
+"Control Selector","EU_LTR_PICTURE_CONTROL","","","","",""
+"Mandatory Requests","SET_CUR, GET_CUR, GET_DEF, GET_INFO, GET_LEN","","","","",""
+"wLength","2","","","","",""
+"UVC 1.5 Class specification.pdf","MD5:B4BF60666927B23B109549E411C99AF2","141","65.66666666666669","463.6666666666715","486.6666666666666","73.33333333332848"
+
+"Offset","F ield","","Size","Value","",""
+"0","bPutAtPositionIn","","1","Number","",""
+"","LTRBuffer","","","","",""
+"1","bLTRMode","","1","Number","",""
+"UVC 1.5 Class specification.pdf","MD5:B4BF60666927B23B109549E411C99AF2","141","65.0","194.33333333334303","222.66666666666663","273.3333333333285"
+
+also p142

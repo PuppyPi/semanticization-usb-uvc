@@ -1,0 +1,7 @@
+"Control Selector","VC_REQUEST_ERROR_CODE_CONTROL","","","","",""
+"Mandatory Requests","GET_CUR, GET_INFO","","","","",""
+"UVC 1.5 Class specification.pdf","MD5:B4BF60666927B23B109549E411C99AF2","94","60.33333333333334","406.3333333333285","399.33333333333326","44.0"
+
+"Offset","Field","Size","Value","","",""
+"0","bRequestErrorCode","1","Number","","",""
+"UVC 1.5 Class specification.pdf","MD5:B4BF60666927B23B109549E411C99AF2","94","59.0","373.6666666666715","259.3333333333333","31.333333333328483"

@@ -1,0 +1,64 @@
+"Offset","Field","Size","Value","Description","",""
+
+"0","bLength","1","Number","","",""
+	Size of this descriptor, in bytes: 10+(4*n)-
+	4+m
+
+"1","bDescriptorType","1","Constant","","",""
+	CS_INTERFACE descriptor type
+
+"2","bDescriptorSubtype","1","Constant","","",""
+	VS_STILL_IMAGE_FRAME descriptor
+	subtype
+
+"3","bEndpointAddress","1","Endpoint","","",""
+	If method 3 of still image capture is used,
+	this contains the address of the bulk
+	endpoint used for still image capture. The
+	address is encoded as follows:
+	D7: Direction. (set to 1 = IN endpoint)
+	D6..4: Reserved, reset to zero
+	D3..0: The endpoint number, determined
+	by the designer
+	If method 2 of still image capture is used,
+	this field shall be set to zero.
+
+"4","bNumImageSizePatterns","1","Number","","",""
+	Number of Image Size patterns of this
+	format: n
+
+"5","wWidth(1)","2","Number","","",""
+	Width of the still image in pattern 1
+
+"7","wHeight(1)","2","Number","","",""
+	Height of the still image in pattern 1
+
+"...","...","...","...","","",""
+	...
+
+"...","...","...","...","","",""
+	...
+
+"5+4*n-4","wWidth(n)","2","Number","","",""
+	Width of the still image in pattern n
+
+"7+4*n-4","wHeight(n)","2","Number","","",""
+	Height of the still image in pattern n
+
+"9+4*n-4","bNumCompressionPattern","1","Number","","",""
+	Number of Compression pattern of this
+	format: m
+
+"10+4*n-4","bCompression(1)","1","Number","","",""
+	Compression of the still image in pattern 1
+
+"...","...","...","...","","",""
+	...
+
+"10+4*n-4+m-1","bCompression(m)","1","Number","","",""
+	Compression of the still image in pattern
+	m
+
+
+
+p82-83

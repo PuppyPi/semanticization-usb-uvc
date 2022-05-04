@@ -1,0 +1,5 @@
+"Terminal Type","Code","I/O","","","",""
+"OTT_ VENDOR_SPECIFIC","0x0300","O","","","",""
+"OTT_DISPLAY","0x0301","O","","","",""
+"OTT_MEDIA_TRANSPORT_OUTPUT","0x0302","O","","","",""
+"UVC 1.5 Class specification.pdf","MD5:B4BF60666927B23B109549E411C99AF2","178","59.00000000000006","440.33333333334303","333.3333333333333","134.0"

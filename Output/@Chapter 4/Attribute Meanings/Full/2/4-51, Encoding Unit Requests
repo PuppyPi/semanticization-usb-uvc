@@ -1,0 +1,30 @@
+"Attribute","Description"
+
+"GET_CUR","Returns the current values of all fields. Prior to the initial
+VS_COMMIT_CONTROL(SET_CUR), the GET_CUR state
+for all Encoding Units is undefined. After the the initial
+VS_COMMIT_CONTROL(SET_CUR) and prior to the initial
+SET_CUR request to the Encoding Unit control, the
+GET_CUR state must be the same as the GET_DEF state."
+
+"GET_MIN","Returns the minimum value for all fields."
+
+"GET_MAX","Returns the maximum value for all fields."
+
+"GET_RES","Returns the resolution value for all fields."
+
+"GET_DEF","Returns the default value for all fields."
+
+"GET_INFO","Returns the capabilities and status of the specified control"
+
+"GET_LEN","Returns the data length of the specified control"
+
+"SET_CUR","Sets the current Encoding Unit state. For Encoder
+Configuration Controls, SET_CUR is used for layer
+configuration and sets all the fields.
+This request shall stall in case an unsupported state or field is
+specified. See the Request Error Code Control section for the
+definition of specific request error codes."
+
+
+p123

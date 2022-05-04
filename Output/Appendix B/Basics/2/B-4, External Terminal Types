@@ -1,0 +1,17 @@
+"Terminal Type","Code","I/O","Description"
+
+"EXTERNAL_VENDOR_SPECIFIC","0x0400","I/O"
+	Vendor-Specific External
+	Terminal.
+
+"COMPOSITE_CONNECTOR","0x0401","I/O"
+	Composite video connector.
+
+"SVIDEO_CONNECTOR","0x0402","I/O"
+	S-video connector.
+
+"COMPONENT_CONNECTOR","0x0403","I/O"
+	Component video connector.
+
+
+p178

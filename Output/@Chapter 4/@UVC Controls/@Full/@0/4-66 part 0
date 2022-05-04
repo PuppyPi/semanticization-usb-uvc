@@ -1,0 +1,26 @@
+"Control Selector","EU_LTR_PICTURE_CONTROL","","","","",""
+"Mandatory Requests","SET_CUR, GET_CUR, GET_DEF, GET_INFO, GET_LEN","","","","",""
+"wLength","2","","","","",""
+"Offset","Field","Size","Value","Description","",""
+"0","bPutAtPositionIn
+LTRBuffer","1","Number","Next frame should be put at certain position in Long
+Term Reference Buffer (LTRB). This frame must be
+in the temporal base layer. It must not be one of the
+scheduled sync frames schedule by the
+EU_SYNC_REF_FRAME_CONTROL control.
+0 - Encoder is free to choose where to save the frame
+inside the encoder controlled buffers. It cannot be
+saved in any of the host controlled LTR Buffers.
+1 : index 1 in the host controlled buffers
+2 : index 2 in the host controlled buffers
+...
+M : position M (maximum) in the host controlled
+buffers
+Where M = bNumAppControlLTRBuffers","",""
+"1","bLTRMode","1","Number","Determines which frames can be used as references
+when creating the new LTR.
+0 - Encoder is restricted to valid host managed LTR
+frames
+1 - Encoder may use any valid host or encoder
+controlled LTR frames.","",""
+"UVC 1.5 Class specification.pdf","MD5:B4BF60666927B23B109549E411C99AF2","141","66.33333333333334","107.00000000001455","479.33333333333326","429.3333333333285"

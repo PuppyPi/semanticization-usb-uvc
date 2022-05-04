@@ -1,0 +1,18 @@
+"Offset","Field","Size","Value","Description","",""
+"0","bLength","1","Number","Size of this descriptor, in bytes: 24+p+n","",""
+"1","bDescriptorType","1","Constant","CS_INTERFACE descriptor type","",""
+"2","bDescriptorSubtype","1","Constant","VC_EXTENSION_UNIT descriptor
+subtype","",""
+"3","bUnitID","1","Number","A non-zero constant that uniquely
+identifies the Unit within the video
+function. This value is used in all requests
+to address this Unit.","",""
+"4","guidExtensionCode","16","GUID","Vendor-specific code identifying the
+Extension Unit","",""
+"20","bNumControls","1","Number","Number of controls in this extension unit","",""
+"21","bNrInPins","1","Number","Number of Input Pins of this Unit: p","",""
+"22","baSourceID(1)","1","Number","ID of the Unit or Terminal to which the
+first Input Pin of this Extension Unit is
+connected.","",""
+"...","...","...","...","...","",""
+"UVC 1.5 Class specification.pdf","MD5:B4BF60666927B23B109549E411C99AF2","73","57.5","118.0","489.0","251.0"

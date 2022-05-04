@@ -1,0 +1,8 @@
+"Offset","Field","Size","Value","","",""
+"0","bLength","1","Number","","",""
+"1","bDescriptorType","1","Constant","","",""
+"2","bEndpointAddress","1","Endpoint","","",""
+"3","bmAttributes","1","Bitmap","","",""
+"4","wMaxPacketSize","2","Number","","",""
+"6","bInterval","1","Number","","",""
+"UVC 1.5 Class specification.pdf","MD5:B4BF60666927B23B109549E411C99AF2","85","59.5","294.0","254.0","414.0"

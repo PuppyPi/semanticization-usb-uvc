@@ -1,0 +1,4 @@
+"Control Selector","PU_WHITE_BALANCE_TEMPERATURE_AUTO_CONTROL","","","","",""
+"Mandatory Requests","SET_CUR, GET_CUR, GET_INFO, GET_DEF","","","","",""
+"wLength","1","","","","",""
+"UVC 1.5 Class specification.pdf","MD5:B4BF60666927B23B109549E411C99AF2","115","59.00000000000006","106.33333333334303","496.6666666666667","47.33333333332848"

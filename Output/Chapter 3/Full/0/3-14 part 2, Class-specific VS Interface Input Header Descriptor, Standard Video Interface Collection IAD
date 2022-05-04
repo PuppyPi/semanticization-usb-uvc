@@ -1,0 +1,6 @@
+"*Note* D0-D3 are deprecated. Going","","","","","",""
+"forward from version 1.5 the proper means","","","","","",""
+"to detect whether a field is supported by","","","","","",""
+"Probe & Commit is to issue a","","","","","",""
+"VS_PROBE_CONTROL(GET_CUR).","","","","","",""
+"UVC 1.5 Class specification.pdf","MD5:B4BF60666927B23B109549E411C99AF2","79","58.5","647.0","487.0","75.0"

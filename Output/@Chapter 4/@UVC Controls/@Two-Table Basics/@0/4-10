@@ -1,0 +1,8 @@
+"Control Selector","CT_AE_MODE_CONTROL","","","","",""
+"Mandatory Requests","SET_CUR, GET_CUR, GET_RES, GET_INFO,
+GET_DEF","","","","",""
+"UVC 1.5 Class specification.pdf","MD5:B4BF60666927B23B109549E411C99AF2","97","60.33333333333334","390.99999999998545","464.66666666666663","58.66666666667152"
+
+"Offset","Field","Size","Value","","",""
+"0","bAutoExposureMode","1","Bitmap","","",""
+"UVC 1.5 Class specification.pdf","MD5:B4BF60666927B23B109549E411C99AF2","97","60.33333333333334","358.3333333333285","289.33333333333326","32.66666666667152"

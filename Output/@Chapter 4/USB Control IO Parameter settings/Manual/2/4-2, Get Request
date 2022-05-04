@@ -1,0 +1,29 @@
+"bmRequestType","bRequest","wValue","wIndex","wLength","Data"
+
+"10100001","GET_CUR
+GET_MIN
+GET_MAX
+GET_RES
+GET_LEN
+GET_INFO
+GET_DEF","See following
+paragraphs.","Entity ID and
+Interface","Length of
+parameter
+block","Parameter
+block"
+
+"10100010","GET_CUR
+GET_MIN
+GET_MAX
+GET_RES
+GET_LEN
+GET_INFO
+GET_DEF","See following
+paragraphs.","Endpoint.","Length of
+parameter
+block","Parameter
+block"
+
+
+p89

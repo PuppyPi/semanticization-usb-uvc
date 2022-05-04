@@ -1,0 +1,11 @@
+"Control Selector","EU_START_OR_STOP_LAYER_CONTROL","","","","",""
+"Mandatory
+Requests","SET_CUR, GET_CUR, GET_INFO, GET_LEN","","","","",""
+"wLength","1","","","","",""
+"UVC 1.5 Class specification.pdf","MD5:B4BF60666927B23B109549E411C99AF2","144","64.33333333333334","134.99999999998545","368.0","62.66666666667152"
+
+"Offset","Field","Size","Value","","",""
+"0","bUpdate","1","Number","","",""
+"UVC 1.5 Class specification.pdf","MD5:B4BF60666927B23B109549E411C99AF2","144","64.33333333333334","106.33333333332848","202.00000000000003","34.66666666667152"
+
+also p145

@@ -1,0 +1,9 @@
+"Control Selector","EU_SYNC_REF_FRAME_CONTROL","","","","",""
+"Mandatory Requests","SET_CUR, GET_CUR, GET_MIN, GET_MAX, GET_INFO,
+GET_LEN","","","","",""
+"wLength","4","","","","",""
+"UVC 1.5 Class specification.pdf","MD5:B4BF60666927B23B109549E411C99AF2","138","65.0","301.6666666666715","458.0","61.33333333332848"
+
+"Offset","Field","Size","Value","","",""
+"0","bSyncFrameType","1","Number","","",""
+"UVC 1.5 Class specification.pdf","MD5:B4BF60666927B23B109549E411C99AF2","138","65.0","273.0","224.66666666666663","34.0"

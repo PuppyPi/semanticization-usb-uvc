@@ -1,0 +1,45 @@
+"Offset","Field","Size","Value","Description"
+
+"0","bLength","1","Number"
+	Size of this descriptor, in bytes: 9 (+ x)
+
+"1","bDescriptorType","1","Constant"
+	CS_INTERFACE descriptor type
+
+"2","bDescriptorSubtype","1","Constant"
+	VC_OUTPUT_TERMINAL descriptor
+	subtype
+
+"3","bTerminalID","1","Constant"
+	A non-zero constant that uniquely identifies
+	the Terminal within the video function. This
+	value is used in all requests to address this
+	Terminal.
+
+"4","wTerminalType","2","Constant"
+	Constant that characterizes the type of
+	Terminal. See Appendix B, "Terminal
+	Types".
+
+"6","bAssocTerminal","1","Constant"
+	Constant, identifying the Input Terminal to
+	which this Output Terminal is associated, or
+	zero (0) if no such association exists.
+
+"7","bSourceID","1","Constant"
+	ID of the Unit or Terminal to which this
+	Terminal is connected.
+
+"8","iTerminal","1","Index"
+	Index of a string descriptor, describing the
+	Output Terminal.
+
+"...","...","...","..."
+	Depending on the Terminal type, certain
+	Output Terminal descriptors have additional
+	fields. The descriptors for these special
+	Terminal types are described in
+	accompanying documents.
+
+
+p66

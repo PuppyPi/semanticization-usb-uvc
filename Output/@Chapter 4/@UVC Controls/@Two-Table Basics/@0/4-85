@@ -1,0 +1,10 @@
+"Control Selector","VS_STREAM_ERROR_CODE_CONTROL","","","","",""
+"Mandatory Requests","GET_CUR, GET_INFO","","","","",""
+"wLength","1","","","","",""
+"UVC 1.5 Class specification.pdf","MD5:B4BF60666927B23B109549E411C99AF2","169","60.5","202.0","486.0","49.0"
+
+"Offset","Field","Size","Value","","",""
+"0","bStreamErrorCode","1","Number","","",""
+"UVC 1.5 Class specification.pdf","MD5:B4BF60666927B23B109549E411C99AF2","169","58.5","172.0","272.0","39.0"
+
+also p170

@@ -1,0 +1,7 @@
+"Control Selector","Value"
+"VC _CONTROL_ UNDEFINED","0x00"
+"VC_VIDEO_POWER_MODE_CONTROL","0x01"
+"VC_REQUEST_ERROR_CODE_CONTROL","0x02"
+"Reserved","0x03"
+
+p174

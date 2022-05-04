@@ -1,0 +1,7 @@
+"","Field","Size","Value","","",""
+"0","bLength","1","Constant","","",""
+"1","bDescriptorType","1","Number","","",""
+"2","bDescriptorSubtype","1","Number","","",""
+"3","bColorPrimaries","1","Number","","",""
+"bTransferCharacteristics","1","Number","","","",""
+"UVC 1.5 Class specification.pdf","MD5:B4BF60666927B23B109549E411C99AF2","83","61.5","107.0","303.0","289.0"

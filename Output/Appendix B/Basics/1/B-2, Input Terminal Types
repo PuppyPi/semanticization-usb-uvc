@@ -1,0 +1,18 @@
+"Terminal Type","Code","I/O","Description","","",""
+
+"ITT_ VENDOR_SPECIFIC","0x0200","I","","","",""
+	Vendor-Specific Input
+	Terminal.
+
+"ITT_CAMERA","0x0201","I","","","",""
+	Camera sensor. To be used
+	only in Camera Terminal
+	descriptors.
+
+"ITT_MEDIA_TRANSPORT_INPUT","0x0202","I","","","",""
+	Sequential media. To be
+	used only in Media
+	Transport Terminal
+	Descriptors.
+
+p177-178

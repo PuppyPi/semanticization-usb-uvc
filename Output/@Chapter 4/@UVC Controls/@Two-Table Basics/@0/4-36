@@ -1,0 +1,11 @@
+"Control Selector","PU_HUE_CONTROL","","","","",""
+"Mandatory Requests","GET_CUR, GET_MIN, GET_MAX, GET_RES, GET_INFO,
+GET_DEF","","","","",""
+"Optional Requests","SET_CUR","","","","",""
+"wLength","2","","","","",""
+"UVC 1.5 Class specification.pdf","MD5:B4BF60666927B23B109549E411C99AF2","113","58.33333333333334","283.6666666666715","484.66666666666663","74.66666666667152"
+
+"Offset","Field","Size","Value","","",""
+"0","wHue","2","Signed","","",""
+"","","","number","","",""
+"UVC 1.5 Class specification.pdf","MD5:B4BF60666927B23B109549E411C99AF2","113","59.00000000000006","240.33333333332848","270.66666666666663","46.66666666667152"

@@ -1,0 +1,11 @@
+"Control Selector","EU_SEI_PAYLOADTYPE_CONTROL","","","","",""
+"Mandatory Requests","SET_CUR, GET_CUR, GET_INFO, GET_DEF, GET_MAX,
+GET_MIN","","","","",""
+"wLength","8","","","","",""
+"UVC 1.5 Class specification.pdf","MD5:B4BF60666927B23B109549E411C99AF2","143","71.5","647.0","472.0","63.0"
+
+"Offset","Field","Size","Value","","",""
+"0","bmSEIMessages","8","Bitmap","","",""
+"UVC 1.5 Class specification.pdf","MD5:B4BF60666927B23B109549E411C99AF2","143","70.5","618.0","231.0","33.0"
+
+also p144

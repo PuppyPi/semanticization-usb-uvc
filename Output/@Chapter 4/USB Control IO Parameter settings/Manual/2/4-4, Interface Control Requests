@@ -1,0 +1,20 @@
+"bmRequestType","bRequest","wValue","wIndex","wLength","Data"
+
+"00100001","SET_CUR","CS","Zero and
+Interface.","Length of
+parameter
+block.","Parameter
+block."
+
+"10100001","GET_CUR
+GET_MIN
+GET_MAX
+GET_RES
+GET_INFO","CS","Zero and
+Interface.","Length of
+parameter
+block.","Parameter
+block."
+
+
+p92

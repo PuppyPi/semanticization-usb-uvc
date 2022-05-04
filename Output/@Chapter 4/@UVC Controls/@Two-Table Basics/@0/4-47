@@ -1,0 +1,8 @@
+"Control Selector","PU_ANALOG_VIDEO_STANDARD_CONTROL","","","","",""
+"Mandatory Requests","GET_CUR, GET_INFO","","","","",""
+"wLength","1","","","","",""
+"UVC 1.5 Class specification.pdf","MD5:B4BF60666927B23B109549E411C99AF2","118","59.666666666666686","407.0","488.00000000000006","46.0"
+
+"Offset","Field","Size","Value","","",""
+"0","bVideoStandard","1","Number","","",""
+"UVC 1.5 Class specification.pdf","MD5:B4BF60666927B23B109549E411C99AF2","118","59.666666666666686","377.0","280.66666666666663","34.0"

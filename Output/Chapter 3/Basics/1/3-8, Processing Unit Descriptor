@@ -1,0 +1,79 @@
+"Offset","Field","Size","Value","Description","",""
+
+"0","bLength","1","Number","","",""
+	Size of this descriptor, in bytes: 13
+
+"1","bDescriptorType","1","Constant","","",""
+	CS_INTERFACE descriptor type
+
+"2","bDescriptorSubtype","1","Constant","","",""
+	VC_PROCESSING_UNIT descriptor
+	subtype
+
+"3","bUnitID","1","Number","","",""
+	A non-zero constant that uniquely identifies
+	the Unit within the video function. This value
+	is used in all requests to address this Unit.
+
+"4","bSourceID","1","Constant","","",""
+	ID of the Unit or Terminal to which this Unit
+	is connected.
+
+"5","wMaxMultiplier","2","Number","","",""
+	If the Digital Multiplier control is supported,
+	this field indicates the maximum digital
+	magnification, multiplied by 100. For
+	example, for a device that supports 1-4.5X
+	digital zoom (a multiplier of 4.5), this field
+	would be set to 450. If the Digital Multiplier
+	control is not supported, this field shall be set
+	to 0.
+
+"7","bControlSize","1","Number","","",""
+	Size of the bmControls field, in bytes: 3
+
+"8","bmControls","3","Bitmap","","",""
+	A bit set to 1 indicates that the mentioned
+	Control is supported for the video stream.
+	D0: Brightness
+	D1: Contrast
+	D2: Hue
+	D3: Saturation
+	D4: Sharpness
+	D5: Gamma
+	D6: White Balance Temperature
+	D7: White Balance Component
+	D8: Backlight Compensation
+	D9: Gain
+	D10: Power Line Frequency
+	D11: Hue, Auto
+	D12: White Balance Temperature, Auto
+	D13: White Balance Component, Auto
+	D14: Digital Multiplier
+	D15: Digital Multiplier Limit
+	D16: Analog Video Standard
+	D17: Analog Video Lock Status
+	D18: Contrast, Auto
+	D19 – D23: Reserved. Set to zero.
+
+"11","iProcessing","1","Index","","",""
+	Index of a string descriptor that describes this
+	processing unit.
+
+"12","bmVideoStandards","1","Bitmap","","",""
+	A bitmap of all analog video standards
+	supported by the Processing Unit.
+	
+	A value of zero indicates that this bitmap
+	should be ignored.
+	
+	D0: None
+	D1: NTSC – 525/60
+	D2: PAL – 625/50
+	D3: SECAM – 625/50
+	D4: NTSC – 625/50
+	D5: PAL – 525/60
+	D6-D7: Reserved. Set to zero.
+
+
+p69-70

@@ -1,0 +1,9 @@
+"Control Selector","EU_PEAK_BIT_RATE_CONTROL","","","","",""
+"Mandatory Requests","SET_CUR, GET_CUR, GET_MIN, GET_MAX, GET_DEF,
+GET_INFO, GET_LEN, GET_RES","","","","",""
+"wLength","4","","","","",""
+"UVC 1.5 Class specification.pdf","MD5:B4BF60666927B23B109549E411C99AF2","136","64.33333333333334","325.00000000001455","465.33333333333326","61.33333333332848"
+
+"Offset","Field","Size","Value","","",""
+"0","dwPeakBitRate","4","Number","","",""
+"UVC 1.5 Class specification.pdf","MD5:B4BF60666927B23B109549E411C99AF2","136","63.666666666666686","293.00000000001455","218.66666666666669","37.33333333332848"

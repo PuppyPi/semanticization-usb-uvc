@@ -1,0 +1,9 @@
+"Control Selector","PU_BACKLIGHT_COMPENSATION_CONTROL","","","","",""
+"Mandatory Requests","SET_CUR, GET_CUR, GET_MIN, GET_MAX,
+GET_RES, GET_INFO, GET_DEF","","","","",""
+"wLength","2","","","","",""
+"Offset","Field","Size","Value","Description","",""
+"0","wBacklightCompensation","2","Number","The setting for the attribute of the
+addressed Backlight Compensation
+control.","",""
+"UVC 1.5 Class specification.pdf","MD5:B4BF60666927B23B109549E411C99AF2","111","59.666666666666686","458.99999999998545","488.00000000000006","116.66666666667152"

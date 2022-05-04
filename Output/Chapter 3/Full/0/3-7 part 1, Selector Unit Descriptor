@@ -1,0 +1,11 @@
+"","","","","value is used in all requests to address this
+Unit.","",""
+"4","bNrInPins","1","Number","Number of Input Pins of this Unit: p","",""
+"5","baSourceID(1)","1","Number","ID of the Unit or Terminal to which the first
+Input Pin of this Selector Unit is connected.","",""
+"...","...","...","...","...","",""
+"5+(p-1)","baSourceID(p)","1","Number","ID of the Unit or Terminal to which the last
+Input Pin of this Selector Unit is connected.","",""
+"5+p","iSelector","1","Index","Index of a string descriptor, describing the
+Selector Unit.","",""
+"UVC 1.5 Class specification.pdf","MD5:B4BF60666927B23B109549E411C99AF2","69","57.5","574.0","496.0","150.0"

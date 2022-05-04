@@ -1,0 +1,7 @@
+"Video Frame Descriptor","Document","","","","",""
+"Uncompressed","USB_Video_Payload_Uncompressed","","","","",""
+"MJPEG","USB_Video_Payload_MJPEG","","","","",""
+"Generic Frame-Based","USB_Video_Payload_Frame_Based","","","","",""
+"H.264","USB_Video_Payload_H.264","","","","",""
+"VP8","USB_Video_Payload_VP8","","","","",""
+"UVC 1.5 Class specification.pdf","MD5:B4BF60666927B23B109549E411C99AF2","81","66.5","423.0","459.0","98.0"

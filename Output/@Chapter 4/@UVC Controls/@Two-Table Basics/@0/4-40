@@ -1,0 +1,9 @@
+"Control Selector","PU_GAMMA_CONTROL","","","","",""
+"Mandatory Requests","SET_CUR, GET_CUR, GET_MIN, GET_MAX, GET_RES,
+GET_INFO, GET_DEF","","","","",""
+"wLength","2","","","","",""
+"UVC 1.5 Class specification.pdf","MD5:B4BF60666927B23B109549E411C99AF2","115","59.0","569.0","492.66666666666663","61.33333333332848"
+
+"Offset","Field","Size","Value","","",""
+"0","wGamma","2","Number","","",""
+"UVC 1.5 Class specification.pdf","MD5:B4BF60666927B23B109549E411C99AF2","115","61.0","525.6666666666715","268.66666666666663","46.0"

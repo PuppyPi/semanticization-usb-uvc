@@ -1,0 +1,81 @@
+"Offset","Field","Size","Value","Description","",""
+
+"0","bLength","1","Number","","",""
+	Size of this descriptor, in bytes: 18
+
+"1","bDescriptorType","1","Constant","","",""
+	CS_INTERFACE descriptor type
+
+"2","bDescriptorSubtype","1","Constant","","",""
+	VC_INPUT_TERMINAL
+	descriptor subtype
+
+"3","bTerminalID","1","Constant","","",""
+	A non-zero constant that uniquely
+	identifies the Terminal within the
+	video function. This value is used
+	in all requests to address this
+	Terminal.
+
+"4","wTerminalType","2","Constant","","",""
+	Constant that characterizes the type
+	of Terminal. This is set to the
+	ITT_CAMERA value.
+
+"6","bAssocTerminal","1","Constant","","",""
+	ID of the Output Terminal to which
+	this Input Terminal is associated.
+
+"7","iTerminal","1","Index","","",""
+	Index of a string descriptor that
+	describes the Camera Terminal.
+
+"8","wObjectiveFocalLengthMin","2","Number","","",""
+	The value of L[min] If Optical Zoom
+	is not supported; this field shall be
+	set to 0.
+
+"10","wObjectiveFocalLengthMax","2","Number","","",""
+	The value of L[max] If Optical Zoom
+	is not supported; this field shall be
+	set to 0.
+
+"12","wOcularFocalLength","2","Number","","",""
+	The value of L[ocular] If Optical
+	Zoom is not supported; this field
+	shall be set to 0.
+
+"14","bControlSize","1","Number","","",""
+	Size in bytes of the bmControls
+	field: 3
+
+"15","bmControls","3","Bitmap","","",""
+	A bit set to 1 indicates that the
+	mentioned Control is supported for
+	the video stream.
+	D0: Scanning Mode
+	D1: Auto-Exposure Mode
+	D2: Auto-Exposure Priority
+	D3: Exposure Time (Absolute)
+	D4: Exposure Time (Relative)
+	D5: Focus (Absolute)
+	D6 : Focus (Relative)
+	D7: Iris (Absolute)
+	D8 : Iris (Relative)
+	D9: Zoom (Absolute)
+	D10: Zoom (Relative)
+	D11: PanTilt (Absolute)
+	D12: PanTilt (Relative)
+	D13: Roll (Absolute)
+	D14: Roll (Relative)
+	D15: Reserved
+	D16: Reserved
+	D17: Focus, Auto
+	D18: Privacy
+	D19: Focus, Simple
+	D20: Window
+	D21: Region of Interest
+	D22 – D23: Reserved, set to zero
+
+
+p67-68

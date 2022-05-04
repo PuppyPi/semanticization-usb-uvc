@@ -1,0 +1,14 @@
+"Control Selector","CT_PANTILT_RELATIVE_CONTROL","","","","",""
+"Mandatory Requests","SET_CUR, GET_CUR, GET_INFO, GET_DEF, GET_MIN,
+GET_MAX, GET_RES","","","","",""
+"wLength","4","","","","",""
+"UVC 1.5 Class specification.pdf","MD5:B4BF60666927B23B109549E411C99AF2","105","60.33333333333334","380.3333333333285","482.0","58.66666666667152"
+
+"Offset","Field","Size","Value","","",""
+"0","bPanRelative","1","Signed
+number","","",""
+"1","bPanSpeed","1","Number","","",""
+"2","bTiltRelative","1","Signed
+number","","",""
+"3","bTiltSpeed","1","Number","","",""
+"UVC 1.5 Class specification.pdf","MD5:B4BF60666927B23B109549E411C99AF2","105","59.0","183.0","266.66666666666663","198.66666666667152"

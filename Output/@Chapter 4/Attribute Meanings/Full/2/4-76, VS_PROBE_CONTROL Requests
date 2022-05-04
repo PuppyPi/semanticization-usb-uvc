@@ -1,0 +1,32 @@
+"Attribute","Description"
+
+"GET_CUR","Returns the current state of the streaming interface. All supported fields
+set to zero will be returned with an acceptable negotiated value.
+Prior to the initial SET_CUR operation, the GET_CUR state is
+undefined. This request shall stall in case of negotiation failure."
+
+"GET_MIN","Returns the minimum value for negotiated fields."
+
+"GET_MAX","Returns the maximum value for negotiated fields."
+
+"GET_RES","Return the resolution of each supported field in the Probe/Commit data
+structure."
+
+"GET_DEF","Returns the default value for the negotiated fields."
+
+"GET_LEN","Returns the length of the Probe data structure."
+
+"GET_INFO","Queries the capabilities and status of the Control. The value returned for
+this request shall have bits D0 and D1 each set to one (1), and the
+remaining bits set to zero (0) (see section 4.1.2, “Get Request”)."
+
+"SET_CUR","Sets the streaming interface Probe state. This is the attribute used for
+stream parameter negotiation.
+
+This request shall protocol STALL in the case where the device would
+be place into an unsupported state or the case where value for a
+negotiated field is out of range. For exact errors to register, see section
+4.2.1.2 ""Request Error Code Control""."
+
+
+p160

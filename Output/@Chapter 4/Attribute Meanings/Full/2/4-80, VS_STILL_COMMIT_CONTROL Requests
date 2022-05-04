@@ -1,0 +1,26 @@
+"Attribute","Description"
+
+"GET_CUR","Returns the current state of the device. After device configuration, this
+state is undefined."
+
+"GET_MIN","Not specified."
+
+"GET_MAX","Not specified."
+
+"GET_RES","Not specified."
+
+"GET_DEF","Not specified."
+
+"GET_LEN","Returns the length of the Commit data structure."
+
+"GET_INFO","Queries the capabilities and status of the Control. The value returned for
+this request shall have bits D0 and D1 each set to one (1), and the
+remaining bits set to zero (0) (see section 4.1.2, “Get Request”)."
+
+"SET_CUR","Sets the device state. This sets the active device state; the field values
+must be the result of a VS_STILL_PROBE_CONTROL(GET_CUR)
+request. When the associated still-image pipe is active, this attribute
+cannot be used and the control pipe shall indicate a stall for this request."
+
+
+p166

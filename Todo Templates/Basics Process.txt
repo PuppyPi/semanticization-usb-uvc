@@ -1,0 +1,30 @@
+==0==
++ Copy down (from any PDF reader) the titles of each table!
++ Copy down the raw data with PDF Monkey :>
+
+
+==0 or 1 or 2==
++ Make sure the header row is captured correctly!
+
+
+==1==
++ Merge tables that were split across page breaks in the PDF!
++ Copy down multiline text column manually
++ Change PDF Monkey footers to just be page numbers
+
+
+==1 or 2==
++ Undo word-wrap in the single-line parts!
++ Add back in the multiline column name/header! (eg, "Description" usually)
++ Make sure to take care of rich text
+
+
+==2==
++ Remove spurious columns from the original PDF Monkey output (eg, all the "","","") so that the columns given match up with the actual tables!
++ Correct any errors noticed
++ Make sure escaping is done right!
++ Line endings to standard! (0x0A)
+
+
+==3==
++ Correct any typos you've noticed in the original material

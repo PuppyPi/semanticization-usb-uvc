@@ -1,0 +1,7 @@
+"Descriptor Subtype","Value","","","","",""
+"EP_UNDEFINED","0x00","","","","",""
+"EP_GENERAL","0x01","","","","",""
+"EP_ENDPOINT","0x02","","","","",""
+"EP_INTERRUPT","0x03","","","","",""
+
+p173

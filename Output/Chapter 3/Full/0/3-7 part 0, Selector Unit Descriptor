@@ -1,0 +1,7 @@
+"Offset","Field","Size","Value","Description","",""
+"0","bLength","1","Number","Size of this descriptor, in bytes: 6+p","",""
+"1","bDescriptorType","1","Constant","CS_INTERFACE descriptor type","",""
+"2","bDescriptorSubtype","1","Constant","VC_SELECTOR_UNIT descriptor subtype","",""
+"3","bUnitID","1","Number","A non-zero constant that uniquely identifies
+the Unit within the video function. This","",""
+"UVC 1.5 Class specification.pdf","MD5:B4BF60666927B23B109549E411C99AF2","68","52.5","106.0","501.0","97.0"

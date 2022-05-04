@@ -1,0 +1,10 @@
+"Control Selector","VS_STILL_IMAGE_TRIGGER_CONTROL","","","","",""
+"Mandatory Requests","SET_CUR, GET_CUR, GET_INFO","","","","",""
+"wLength","1","","","","",""
+"UVC 1.5 Class specification.pdf","MD5:B4BF60666927B23B109549E411C99AF2","167","60.5","187.0","483.0","47.0"
+
+"Offset","Field","Size","Value","","",""
+"0","bTrigger","1","Number","","",""
+"UVC 1.5 Class specification.pdf","MD5:B4BF60666927B23B109549E411C99AF2","167","58.5","114.0","271.0","78.0"
+
+also p168

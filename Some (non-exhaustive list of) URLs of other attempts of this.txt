@@ -1,0 +1,9 @@
+https://duckduckgo.com/?q=usb+video+class+descriptors+structs&t=ffab&ia=web
+https://github.com/torvalds/linux/blob/master/drivers/media/usb/uvc/uvc_driver.c
+https://github.com/search?q=usb+uvc+descriptors&type=
+about:newtab
+https://duckduckgo.com/?q=bNumCompressionPattern&t=ffab&ia=web
+https://github.com/libuvc/libuvc/blob/master/include/libuvc/libuvc.h
+https://docs.rs/uvc-src/0.2.0/src/uvc_src/opt/rustwide/target/debug/build/uvc-src-f76d7032bf0a4673/out/uvc_bindings.rs.html
+https://opensource.apple.com/source/IOUSBFamily/IOUSBFamily-327.4.0/USBProberV2/
+https://opensource.apple.com/source/IOUSBFamily/IOUSBFamily-327.4.0/USBProberV2/DecodeVideoInterfaceDescriptor.h.auto.html

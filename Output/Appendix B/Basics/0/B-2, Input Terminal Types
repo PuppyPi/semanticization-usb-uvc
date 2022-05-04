@@ -1,0 +1,5 @@
+"Terminal Type","Code","I/O","","","",""
+"ITT_ VENDOR_SPECIFIC","0x0200","I","","","",""
+"ITT_CAMERA","0x0201","I","","","",""
+"ITT_MEDIA_TRANSPORT_INPUT","0x0202","I","","","",""
+"UVC 1.5 Class specification.pdf","MD5:B4BF60666927B23B109549E411C99AF2","177","59.666666666666686","112.33333333334303","334.0","107.33333333334303"

@@ -1,0 +1,9 @@
+"Control Selector","CT_PRIVACY_CONTROL","","","","",""
+"Mandatory Requests","GET_CUR, GET_INFO","","","","",""
+"Optional Requests","SET_CUR","","","","",""
+"wLength","1","","","","",""
+"UVC 1.5 Class specification.pdf","MD5:B4BF60666927B23B109549E411C99AF2","107","60.33333333333334","417.0","306.66666666666663","59.33333333332848"
+
+"Offset","Field","Size","Value","","",""
+"0","bPrivacy","1","Boolean","","",""
+"UVC 1.5 Class specification.pdf","MD5:B4BF60666927B23B109549E411C99AF2","107","60.33333333333334","383.0","269.33333333333326","35.33333333332848"

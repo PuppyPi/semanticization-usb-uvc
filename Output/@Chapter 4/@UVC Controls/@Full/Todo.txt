@@ -1,0 +1,7 @@
+Same as others; this is just for completeness/posterity to get the rectangles for the tables.
+
+==0==
++ Copy down (from any PDF reader) the titles of each table!
+. Copy down the raw data with PDF Monkey :>
+x Separate the rows to make sure lines in multiline cells haven't been made their own entire row! x'D
+x Make sure the header row is captured correctly!

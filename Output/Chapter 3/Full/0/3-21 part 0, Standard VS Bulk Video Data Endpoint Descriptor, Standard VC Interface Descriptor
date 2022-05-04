@@ -1,0 +1,5 @@
+"Offset","Field","Size","Value","Description","",""
+"0","bLength","1","Number","Size of this descriptor, in bytes: 7","",""
+"1","bDescriptorType","1","Constant","ENDPOINT descriptor type","",""
+"2","bEndpointAddress","1","Endpoint","The address of the endpoint on the USB","",""
+"UVC 1.5 Class specification.pdf","MD5:B4BF60666927B23B109549E411C99AF2","85","57.5","114.0","487.0","68.0"

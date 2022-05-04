@@ -1,0 +1,10 @@
+"22+(p-1)","baSourceID(p)","1","Number","ID of the Unit or Terminal to which the
+last Input Pin of this Extension Unit is
+connected.","",""
+"22+p","bControlSize","1","Number","Size of the bmControls field, in bytes: n","",""
+"23+p","bmControls","n","Bitmap","A bit set to 1 indicates that the mentioned
+Control is supported:
+D(n*8-1)..0: Vendor-specific","",""
+"23+p+n","iExtension","1","Index","Index of a string descriptor that describes
+this extension unit.","",""
+"UVC 1.5 Class specification.pdf","MD5:B4BF60666927B23B109549E411C99AF2","74","58.5","588.0","488.0","136.0"

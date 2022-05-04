@@ -1,0 +1,7 @@
+"wLength","2","","","","",""
+"Offset","Field","Size","Value","Description","",""
+"0","bMinQp","1","Number","Minimum quantization parameter to use for the frame
+(both luma and chroma).","",""
+"1","bMaxQp","1","Number","Maximum quantization parameter to use for the frame
+(both luma and chroma).","",""
+"UVC 1.5 Class specification.pdf","MD5:B4BF60666927B23B109549E411C99AF2","138","64.33333333333334","634.3333333333285","482.66666666666663","88.66666666667152"

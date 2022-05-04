@@ -1,0 +1,9 @@
+"Control Selector","PU_DIGITAL_MULTIPLIER_CONTROL","","","","",""
+"Mandatory Requests","SET_CUR, GET_CUR, GET_MIN, GET_MAX, GET_RES,
+GET_INFO, GET_DEF","","","","",""
+"wLength","2","","","","",""
+"UVC 1.5 Class specification.pdf","MD5:B4BF60666927B23B109549E411C99AF2","117","59.666666666666686","187.66666666667152","488.6666666666666","57.33333333332848"
+
+"Offset","Field","Size","Value","Description","",""
+"0","wMultiplierStep","2","Number","The value Zcur","",""
+"UVC 1.5 Class specification.pdf","MD5:B4BF60666927B23B109549E411C99AF2","117","59.666666666666686","157.0","488.00000000000006","34.66666666667152"
