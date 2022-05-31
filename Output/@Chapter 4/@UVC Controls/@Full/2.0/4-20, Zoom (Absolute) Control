@@ -1,0 +1,11 @@
+"Control Selector","","CT_ZOOM_ABSOLUTE_CONTROL","",""
+"Mandatory Requests","","GET_CUR, GET_MIN, GET_MAX, GET_RES, GET_INFO, GET_DEF","",""
+"Optional Requests","","SET_CUR","",""
+"wLength","","2","",""
+
+"Offset","Field","Size","Value","Description"
+
+"0","wObjectiveFocalLength","2","Number","The value of Z   
+cur"
+
+p102-103

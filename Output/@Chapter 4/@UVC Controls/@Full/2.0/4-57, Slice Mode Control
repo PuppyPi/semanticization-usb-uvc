@@ -1,0 +1,22 @@
+"Control Selector","","EU_SLICE_MODE_CONTROL","",""
+"Mandatory Requests","","SET_CUR, GET_CUR, GET_DEF, GET_MIN, GET_MAX, GET_INFO, GET_LEN","",""
+"wLength","","4","",""
+
+"Offset","Field","Size","Value","Description"
+
+"0","wSliceMode","2","Number","Most significant byte: Mode. 
+0: Maximum number of MBs per slice mode 
+1: Target compressed size per slice mode 
+2: Number of slices per frame mode 
+3: Number of Macroblock rows per slice mode 
+4-255: Reserved"
+
+"2","wSliceConfig
+Setting","","Number","The meaning of this field depends on wSliceMode 
+mode: 
+Mode 0: Maximum number of MBs per slice. 
+Mode 1: Target size for each slice NALU in bytes.  
+Mode 2: Number of slices per frame. 
+Mode 3: Number of macroblock rows per slice."
+
+p131

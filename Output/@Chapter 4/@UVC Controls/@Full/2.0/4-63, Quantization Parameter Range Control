@@ -1,0 +1,13 @@
+"Control Selector","EU_QP_RANGE_CONTROL"
+"Mandatory Requests","SET_CUR, GET_CUR, GET_MIN, GET_MAX, GET_RES, GET_INFO, GET_DEF, GET_LEN"
+"wLength","","2","",""
+
+"Offset","Field","Size","Value","Description"
+
+"0","bMinQp","1","Number","Minimum quantization parameter to use for the frame 
+(both luma and chroma)."
+
+"1","bMaxQp","1","Number","Maximum quantization parameter to use for the frame 
+(both luma and chroma)."
+
+p137-138

@@ -1,0 +1,17 @@
+"Control Selector","","EU_START_OR_STOP_LAYER_CONTROL","",""
+"Mandatory Requests","","SET_CUR, GET_CUR, GET_INFO, GET_LEN","",""
+"wLength","","1","",""
+
+"Offset","Field","Size","Value","Description"
+
+"0","bUpdate","1","Number","0: Stop streaming the current layer and all layers
+depending on it. 
+1: Start streaming the current layer (and all layers it 
+depends on) once the device starts streaming. If this 
+control is not issued before streaming is enabled 
+(before SET_INTERFACE), the encoder shall 
+stream every layer when streaming is enabled 
+GET_CUR returns the current state of the layer (0 
+if stopped, or 1 if started)."
+
+p144-145
