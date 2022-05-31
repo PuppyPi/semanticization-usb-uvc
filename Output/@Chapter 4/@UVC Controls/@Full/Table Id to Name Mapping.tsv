@@ -1,0 +1,69 @@
+4-6	Device Power Mode
+4-7	Request Error Code Control
+4-9	Scanning Mode Control
+4-10	Auto-Exposure Mode Control
+4-11	Auto-Exposure Priority Control
+4-12	Exposure Time (Absolute) Control
+4-13	Exposure Time (Relative) Control
+4-14	Focus (Absolute) Control
+4-15	Focus (Relative) Control
+4-16	Focus, Simple Range Control
+4-17	Focus, Auto Control
+4-18	Iris (Absolute) Control
+4-19	Iris (Relative) Control
+4-20	Zoom (Absolute) Control
+4-21	Zoom (Relative) Control
+4-22	PanTilt (Absolute) Control
+4-23	PanTilt (Relative) Control
+4-24	Roll (Absolute) Control
+4-25	Roll (Relative) Control
+4-26	Privacy Shutter Control
+4-27	Digital Window Control
+4-28	Region of Interest Control
+4-29	Selector Unit Control Requests
+4-30	Backlight Compensation Control
+4-31	Brightness Control
+4-32	Contrast Control
+4-33	Contrast, Auto Control
+4-34	Gain Control
+4-35	Power Line Frequency Control
+4-36	Hue Control
+4-37	Hue, Auto Control
+4-38	Saturation Control
+4-39	Sharpness Control
+4-40	Gamma Control
+4-41	White Balance Temperature Control
+4-42	White Balance Temperature, Auto Control
+4-43	White Balance Component Control
+4-44	White Balance Component, Auto Control
+4-45	Digital Multiplier Control
+4-46	Digital Multiplier Limit Control
+4-47	Analog Video Standard Control
+4-48	Analog Video Lock Status Control
+4-53	Select Layer Control
+4-54	Video Resolution Control
+4-55	Profile Toolset Control
+4-56	Minimum Frame Interval Control
+4-57	Slice Mode Control
+4-58	Rate Control Mode Control
+4-59	Average Bitrate Control
+4-60	CPB Size Control
+4-61	Peak Bit Rate Control
+4-62	Quantization Parameter Control
+4-63	Quantization Parameter Range Control
+4-64	Synchronization and Long Term Reference Frame Control
+4-65	Long-Term Buffer Control
+4-66	Long-Term Reference Picture Control
+4-67	Long-Term Reference Validation Control
+4-68	SEI Message Control
+4-69	Priority Control
+4-70	Start or Stop Layer Control
+4-71	Level IDC Control
+4-72	Error Resiliency Control
+4-75	Video Probe and Commit Controls
+4-78	Video Still Probe Control and Still Commit Control
+4-81	Synch Delay Control
+4-82	Still Image Trigger Control
+4-83	Generate Key Frame Control
+4-84	Update Frame Segment Control
+4-85	Stream Error Code Control

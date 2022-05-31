@@ -1,6 +1,6 @@
 ==0==
-+ Copy down (from any PDF reader) the titles of each table!
-+ Copy down the raw data with PDF Monkey :>
+. Copy down (from any PDF reader) the titles of each table!
+. Copy down the raw data with PDF Monkey :>
 + Separate the rows to make sure lines in multiline cells haven't been made their own entire row! x'D
 + Make sure the header row is captured correctly!
 
