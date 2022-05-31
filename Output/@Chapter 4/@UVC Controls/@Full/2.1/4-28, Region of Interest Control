@@ -1,0 +1,29 @@
+"Control Selector","","CT_REGION_OF_INTEREST_CONTROL","",""
+"Mandatory Requests","","SET_CUR, GET_CUR, GET_MIN, GET_MAX, GET_DEF","",""
+"wLength","","10","",""
+
+"Offset","Field","Size","Value","Description"
+
+"0","wROI_Top","2","Number","Top coordinate 
+In global sensor coordinates (pixels)"
+
+"2","wROI_Left","2","Number","Left coordinate
+In global sensor coordinates (pixels)"
+
+"4","wROI_Bottom","2","Number","Bottom coordinate 
+In global sensor coordinates (pixels)"
+
+"6","wROI_Right","2","Number","Right coordinate 
+In global sensor coordinates (pixels)"
+
+"8","bmAutoControls","2","Bitmap","D0: Auto Exposure 
+D1: Auto Iris 
+D2: Auto White Balance 
+D3: Auto Focus 
+D4: Auto Face Detect 
+D5: Auto Detect and Track 
+D6: Image Stabilization 
+D7: Higher Quality 
+D8 – D15: Reserved, set to zero"
+
+p108-109

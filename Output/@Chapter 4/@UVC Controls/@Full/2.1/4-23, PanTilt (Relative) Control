@@ -1,0 +1,26 @@
+"Control Selector","","CT_PANTILT_RELATIVE_CONTROL","",""
+"Mandatory Requests","","SET_CUR, GET_CUR, GET_INFO, GET_DEF, GET_MIN, GET_MAX, GET_RES","",""
+"wLength","","4","",""
+
+"Offset","Field","Size","Value","Description"
+
+"0","bPanRelative","1","Signed 
+number","The setting for the attribute of the 
+addressed Pan (Relative) Control: 
+0: Stop 
+1: moving to clockwise direction 
+0xFF: moving to counter clockwise 
+direction"
+
+"1","bPanSpeed","1","Number","Speed of the Pan movement"
+
+"2","bTiltRelative","1","Signed 
+number","The setting for the attribute of the 
+addressed Tilt (Relative) Control: 
+0: Stop 
+1: point the imaging plane up 
+0xFF: point the imaging plane down"
+
+"3","bTiltSpeed","1","Number","Speed for the Tilt movement"
+
+p105

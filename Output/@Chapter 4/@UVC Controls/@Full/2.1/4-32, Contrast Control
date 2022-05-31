@@ -1,0 +1,10 @@
+"Control Selector","PU_CONTRAST_CONTROL"
+"Mandatory Requests","","SET_CUR, GET_CUR, GET_MIN, GET_MAX, GET_RES, GET_INFO, GET_DEF","",""
+"wLength","","2","",""
+
+"Offset","Field","Size","Value","Description"
+
+"0","wContrast","2","Number","The setting for the attribute of the 
+addressed Contrast control."
+
+p111-112

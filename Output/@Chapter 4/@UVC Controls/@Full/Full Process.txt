@@ -15,7 +15,7 @@
 
 ==1 or 2==
 . Undo word-wrap in the single-line parts!
-+ Make sure to take care of rich text
+. Make sure to take care of rich text
 
 
 ==2==

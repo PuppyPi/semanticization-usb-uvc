@@ -1,0 +1,28 @@
+"Control Selector","","CT_DIGITAL_WINDOW_CONTROL","",""
+"Mandatory Requests","","SET_CUR, GET_CUR, GET_MIN, GET_MAX, GET_DEF","",""
+"wLength","","12","",""
+
+"Offset","Field","Size","Value","Description"
+
+"0","wWindow_Top","2","Number","Top coordinate 
+In global sensor coordinates (pixels)"
+
+"2","wWindow_Left","2","Number","Left coordinate 
+In global sensor coordinates (pixels)"
+
+"4","wWindow_Bottom","2","Number","Bottom coordinate 
+In global sensor coordinates (pixels)"
+
+"6","wWindow_Right","2","Number","Right coordinate 
+In global sensor coordinates (pixels)"
+
+"8","wNumSteps","2","Number","Number of steps to move from current 
+window to window specified by rectangle 
+above."
+
+"10","bmNumStepsUnits","2","Bitmap","Units of number of steps specified above. 
+D0: video frames 
+D1: milliseconds 
+D2-D15: Reserved"
+
+p107-108

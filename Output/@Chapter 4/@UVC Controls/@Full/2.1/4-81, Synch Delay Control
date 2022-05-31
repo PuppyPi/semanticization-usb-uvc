@@ -1,0 +1,11 @@
+"Control Selector","","VS_SYNCH_DELAY_CONTROL","",""
+"Mandatory Requests","","SET_CUR, GET_CUR, GET_MIN, GET_MAX, GET_RES, GET_INFO, GET_DEF","",""
+"wLength","","2","",""
+
+"Offset","Field","Size","Value","Description"
+
+"0","wDelay","2","Number","Delay from the time that the packet 
+should be sent. wDelay is expressed in 
+microsecond units."
+
+p167

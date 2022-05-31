@@ -1,0 +1,11 @@
+"Control Selector","","CT_AE_PRIORITY_CONTROL","",""
+"Mandatory Requests","","SET_CUR, GET_CUR, GET_INFO","",""
+"wLength","","1","",""
+
+"Offset","Field","Size","Value","Description"
+
+"0","bAutoExposurePriority","1","Number","The setting for the attribute of the 
+addressed AutoExposure Priority 
+control."
+
+p98
