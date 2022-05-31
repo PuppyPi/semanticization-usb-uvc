@@ -1,0 +1,8 @@
+
+"","","","","and read only from the host."
+
+"7","dwMaxPayloadTransferSize","4","Number","Specifies the maximum number of 
+bytes that the device can transmit or 
+receive in a single payload transfer."
+
+"UVC 1.5 Class specification.pdf","MD5:B4BF60666927B23B109549E411C99AF2","166","61.44","663.58","476.50002","56.17999999999992"

@@ -1,0 +1,48 @@
+
+"","","","","field allows the sender to indicate that it 
+will identify segment boundaries in the 
+stream, enabling low-latency buffer 
+handling by the receiver without the 
+overhead of parsing the stream itself. 
+ 
+When used in conjunction with an IN 
+endpoint, this control is set by the device, 
+and is read-only from the host. 
+ 
+When used in conjunction with an OUT 
+endpoint, this parameter is set by the 
+host, and is read-only from the device."
+
+"31","bPreferedVersion","1","Number","The preferred payload format version 
+supported by the host or device for the 
+specified bFormatIndex value. 
+ 
+This parameter allows the host and 
+device to negotiate a mutually agreed 
+version of the payload format associated 
+with the bFormatIndex field. The host 
+initializes this and the following 
+bMinVersion and bMaxVersion fields 
+to zero on the first Probe Set. Upon 
+Probe Get, the device shall return its 
+preferred version, plus the minimum and 
+maximum versions supported by the 
+device (see bMinVersion and 
+bMaxVersion below). The host may 
+issue a subsequent Probe Set/Get 
+sequence to specify its preferred version 
+(within the ranges returned in 
+bMinVersion and bMaxVersion from 
+the initial Probe Set/Get sequence). The 
+host is not permitted to alter the 
+bMinVersion and bMaxVersion values. 
+ 
+This field will support up to 256 (1-255) 
+versions of a single payload format. The 
+version number is drawn from the minor 
+version of the Payload Format 
+specification. For example, version 1.2 of 
+a Payload Format specification would 
+result in a value of 2 for this parameter."
+
+"UVC 1.5 Class specification.pdf","MD5:B4BF60666927B23B109549E411C99AF2","156","61.08","111.97998999999993","482.95479200000005","607.7800100000001"

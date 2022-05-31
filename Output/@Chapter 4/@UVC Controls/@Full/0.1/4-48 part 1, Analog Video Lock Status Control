@@ -1,0 +1,8 @@
+
+"Offset","Field","Size","Value","Description"
+
+"0","bStatus","1","Number","0: Video Decoder is locked. 
+1: Video Decoder is not locked. 
+2-255: Reserved. Do not use."
+
+"UVC 1.5 Class specification.pdf","MD5:B4BF60666927B23B109549E411C99AF2","119","61.44","663.58","484.06001999999995","56.17999999999992"

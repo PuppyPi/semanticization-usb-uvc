@@ -1,0 +1,13 @@
+
+"Control Selector","","EU_START_OR_STOP_LAYER_CONTROL","",""
+
+"Mandatory 
+Requests","","SET_CUR, GET_CUR, GET_INFO, GET_LEN","",""
+
+"wLength","","1","",""
+
+"Offset","Field","Size","Value","Description"
+
+"0","bUpdate","1","Number","0: Stop streaming the current layer and all layers"
+
+"UVC 1.5 Class specification.pdf","MD5:B4BF60666927B23B109549E411C99AF2","144","66.62400000000001","109.81998999999996","460.03598999999997","85.20000000000005"

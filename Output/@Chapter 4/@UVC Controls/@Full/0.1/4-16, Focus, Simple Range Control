@@ -1,0 +1,17 @@
+
+"Control Selector","","CT_FOCUS_SIMPLE_CONTROL","",""
+
+"Mandatory Requests","","SET_CUR, GET_CUR, GET_INFO, GET_DEF","",""
+
+"wLength","","1","",""
+
+"Offset","Field","Size","Value","Description"
+
+"0","bFocus","1","Number","0x00 – full range 
+0x01 – macro. Less than 0.3 
+meters. 
+0x02 – people. 0.3m to 3m 
+0x03 – scene.  3m to infinity 
+0x04 to 0xFF - reserved"
+
+"UVC 1.5 Class specification.pdf","MD5:B4BF60666927B23B109549E411C99AF2","101","61.92750000000002","565.54","478.4486721212122","140.4000000000001"

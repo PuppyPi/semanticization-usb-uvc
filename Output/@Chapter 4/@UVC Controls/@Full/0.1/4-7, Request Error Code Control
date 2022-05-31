@@ -1,0 +1,22 @@
+
+"Control Selector","","VC_REQUEST_ERROR_CODE_CONTROL","",""
+
+"Mandatory Requests","","GET_CUR, GET_INFO","",""
+
+"wLength","","1","",""
+
+"Offset","Field","Size","Value","Description"
+
+"0","bRequestErrorCode","1","Number","0x00: No error 
+0x01: Not ready 
+0x02: Wrong state 
+0x03: Power 
+0x04: Out of range 
+0x05: Invalid unit 
+0x06: Invalid control 
+0x07: Invalid Request 
+0x08: Invalid value within range 
+0x09-0xFE: Reserved for future use 
+0xFF: Unknown"
+
+"UVC 1.5 Class specification.pdf","MD5:B4BF60666927B23B109549E411C99AF2","94","61.44","239.20999000000006","479.0085363636363","209.29999999999995"

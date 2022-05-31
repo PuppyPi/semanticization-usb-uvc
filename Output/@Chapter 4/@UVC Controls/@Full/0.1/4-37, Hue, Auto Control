@@ -1,0 +1,13 @@
+
+"Control Selector","","PU_HUE_AUTO_CONTROL","",""
+
+"Mandatory Requests","","SET_CUR, GET_CUR, GET_INFO, GET_DEF","",""
+
+"wLength","","1","",""
+
+"Offset","Field","Size","Value","Description"
+
+"0","bHueAuto","1","Number","The setting for the attribute of the 
+addressed Hue, Auto control."
+
+"UVC 1.5 Class specification.pdf","MD5:B4BF60666927B23B109549E411C99AF2","114","61.440000000000026","620.74","478.9385064516131","85.20000000000005"

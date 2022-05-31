@@ -1,0 +1,20 @@
+
+"","","","","In global sensor coordinates (pixels)"
+
+"4","wROI_Bottom","2","Number","Bottom coordinate 
+In global sensor coordinates (pixels)"
+
+"6","wROI_Right","2","Number","Right coordinate 
+In global sensor coordinates (pixels)"
+
+"8","bmAutoControls","2","Bitmap","D0: Auto Exposure 
+D1: Auto Iris 
+D2: Auto White Balance 
+D3: Auto Focus 
+D4: Auto Face Detect 
+D5: Auto Detect and Track 
+D6: Image Stabilization 
+D7: Higher Quality 
+D8 – D15: Reserved, set to zero"
+
+"UVC 1.5 Class specification.pdf","MD5:B4BF60666927B23B109549E411C99AF2","109","66.62400000000001","531.070005","468.79598999999985","188.68999499999995"

@@ -1,0 +1,18 @@
+
+"Control Selector","","CT_EXPOSURE_TIME_RELATIVE_CONTROL","",""
+
+"Mandatory Requests","","SET_CUR, GET_CUR, GET_INFO","",""
+
+"wLength","","1","",""
+
+"Offset","Field","Size","Value","Description"
+
+"0","bExposureTimeRelative","1","Signed 
+Number","The setting for the attribute of the 
+addressed Exposure Time (Relative) 
+Control: 
+0: default 
+1: incremented by 1 step 
+0xFF: decremented by 1 step"
+
+"UVC 1.5 Class specification.pdf","MD5:B4BF60666927B23B109549E411C99AF2","99","61.44000000000001","435.430005","484.06002000000007","140.42999500000002"
