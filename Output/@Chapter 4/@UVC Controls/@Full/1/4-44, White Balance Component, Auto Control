@@ -1,0 +1,15 @@
+
+"Control Selector","","PU_WHITE_BALANCE_COMPONENT_AUTO_CONTROL","",""
+
+"Mandatory Requests","","SET_CUR, GET_CUR, GET_INFO, GET_DEF","",""
+
+"wLength","","1","",""
+
+"Offset","Field","Size","Value","Description"
+
+"0","bWhiteBalanceCo
+mponentAuto","1","Number","The setting for the attribute of the 
+addressed White Balance Component, 
+Auto control."
+
+p117

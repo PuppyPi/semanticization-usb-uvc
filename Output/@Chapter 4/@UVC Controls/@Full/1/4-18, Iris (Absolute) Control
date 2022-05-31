@@ -1,0 +1,15 @@
+"Control Selector","","CT_IRIS_ABSOLUTE_CONTROL","",""
+
+"Mandatory Requests","","GET_CUR, GET_MIN, GET_MAX, GET_RES, GET_INFO, 
+GET_DEF","",""
+
+"Optional Requests","","SET_CUR","",""
+
+"wLength","","2","",""
+
+"Offset","Field","Size","Value","Description"
+
+"0","wIrisAbsolute","2","Number","The setting for the attribute of the
+addressed Iris (Absolute) Control."
+
+p101-102

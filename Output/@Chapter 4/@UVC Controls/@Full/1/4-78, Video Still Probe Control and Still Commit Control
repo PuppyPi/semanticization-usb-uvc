@@ -1,0 +1,52 @@
+"Control Selector","","VS_STILL_PROBE_CONTROL 
+VS_STILL_COMMIT_CONTROL","",""
+
+"Mandatory Requests","","See tables below","",""
+
+"wLength","","11","",""
+
+"Offset","Field","Size","Value","Description"
+
+"0","bFormatIndex","1","Number","Video format index from a Format 
+descriptor. 
+A specific still-image format is 
+selected by setting this field to the 
+one-based index for the associated 
+Format descriptor. To select the first 
+format defined by a device, a value 
+of 1 is written to this control."
+
+"1","bFrameIndex","1","Number","Video frame index from a Frame 
+descriptor. 
+This field selects the still-image 
+frame resolution from the array of 
+resolutions supported by the selected 
+still-image format. The index value 
+ranges from one to the number of 
+Still Image Size Patterns reported by 
+the selected Still Image Frame 
+descriptor."
+
+"2","bCompressionIndex","1","Number","Compression index from a Frame 
+descriptor. 
+This field selects the still-image 
+frame compression from the array of 
+compression patterns supported by 
+the selected still-image format. The 
+index value ranges from one to the 
+number of Still Image Compression 
+Patterns reported by the selected Still 
+Image Frame descriptor."
+
+"3","dwMaxVideoFrameSize","4","Number","Maximum still image size in bytes. 
+ 
+This field indicates the maximum 
+size of a single still image.  
+This parameter is set by the device
+and read only from the host."
+
+"7","dwMaxPayloadTransferSize","4","Number","Specifies the maximum number of 
+bytes that the device can transmit or 
+receive in a single payload transfer."
+
+p165-166

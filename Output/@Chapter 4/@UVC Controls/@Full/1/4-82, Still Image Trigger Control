@@ -1,0 +1,18 @@
+"Control Selector","","VS_STILL_IMAGE_TRIGGER_CONTROL","",""
+
+"Mandatory Requests","","SET_CUR, GET_CUR, GET_INFO","",""
+
+"wLength","","1","",""
+
+"Offset","Field","Size","Value","Description"
+
+"0","bTrigger","1","Number","The setting for the Still Image Trigger 
+Control: 
+0: Normal operation. 
+1: Transmit still image.
+2: Transmit still image via dedicated bulk 
+pipe. 
+3: Abort still image transmission."
+
+
+p167-168

@@ -1,0 +1,30 @@
+
+"Control Selector","","EU_SELECT_LAYER_CONTROL","",""
+
+"Mandatory Requests","","SET_CUR, GET_CUR, GET_INFO, GET_LEN","",""
+
+"wLength","","2","",""
+
+"Offset","Field","Size","Value","Description"
+
+"0","wLayerOrViewID","2","Number","For multi-layer streams, a combination of 
+dependency_id, quality_id, temporal_id and 
+stream_id. Bits: 
+0-2: dependency_id 
+3-6: quality_id 
+7-9: temporal_id 
+10-12: stream_id 
+13-15: Reserved, set to 0  
+ 
+For multi-view streams, this value contains a 
+combination of view_id, temporal_id, 
+stream_id, and interface number. Bits:  
+0-6: view_id 
+7-9: temporal_id 
+10-12: stream_id 
+13-15: Reserved, set to 0 
+ 
+When the stream does not support layering or 
+multiples view, bits 0-9 are zero."
+
+p127

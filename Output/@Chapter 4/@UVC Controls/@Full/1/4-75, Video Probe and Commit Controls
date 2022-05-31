@@ -1,0 +1,488 @@
+"Control Selector","","VS_PROBE_CONTROL 
+VS_COMMIT_CONTROL","",""
+
+"Mandatory Requests","","See tables below","",""
+
+"wLength","","48","",""
+
+"Offse
+t","Field","Size","Value","Description"
+
+"0","bmHint","2","Bitmap","Bitfield control indicating to the function 
+what fields shall be kept fixed (indicative 
+only): 
+D0: dwFrameInterval 
+D1: wKeyFrameRate 
+D2: wPFrameRate 
+D3: wCompQuality 
+D4: wCompWindowSize 
+D15..5: Reserved (0) 
+ 
+The hint bitmap indicates to the video 
+streaming interface which fields shall be 
+kept constant during stream parameter 
+negotiation. For example, if the selection 
+wants to favor frame rate over quality, 
+the dwFrameInterval bit will be set (1). 
+ 
+This field is set by the host, and is read-
+only for the video streaming interface."
+
+"2","bFormatIndex","1","Number","Video format index from a Format 
+descriptor for this video interface. 
+ 
+Select a specific video stream format by 
+setting this field to the one-based index 
+of the associated Format descriptor. To 
+select the first format defined by a 
+device, a value one (1) is written to this 
+field. This field must be supported even 
+if only one video format is supported by 
+the device. 
+ 
+This field is set by the host."
+
+"3","bFrameIndex","1","Number","Video frame index from a Frame 
+descriptor. 
+ 
+This field selects the video frame 
+resolution from the array of resolutions 
+supported by the selected stream. The 
+index value ranges from 1 to the number 
+of Frame descriptors following a 
+particular Format descriptor. For frame-
+based formats, this field must be 
+supported even if only one video frame 
+index is supported by the device. 
+ 
+For video payloads with no defined 
+Frame descriptor, this field shall be set to 
+zero (0).  
+ 
+This field is set by the host."
+
+"4","dwFrameInterval","4","Number","Frame interval in 100 ns units. 
+ 
+This field sets the desired video frame 
+interval for the selected video stream and 
+frame index. The frame interval value is 
+specified in 100 ns units. The device 
+shall support the setting of all frame 
+intervals reported in the Frame 
+Descriptor corresponding to the selected 
+Video Frame Index. For frame-based 
+formats, this field must be implemented 
+even if only one video frame interval is 
+supported by the device. 
+ 
+When used in conjunction with an IN 
+endpoint, the host shall indicate its 
+preference during the Probe phase. The 
+value must be from the range of values 
+supported by the device. 
+ 
+When used in conjunction with an OUT 
+endpoint, the host shall accept the value 
+indicated by the device."
+
+"8","wKeyFrameRate","2","Number","Key frame rate in key-frame per video-
+frame units.
+
+This field is only applicable to sources 
+(and formats) capable of streaming video 
+with adjustable compression parameters. 
+Use of this control is at the discretion of 
+the device, and is indicated in the VS 
+Input or Output Header descriptor. 
+ 
+The Key Frame Rate field is used to 
+specify the compressor’s key frame rate. 
+For example, if one of every ten encoded 
+frames in a video stream sequence is a 
+key frame, this control would report a 
+value of 10. A value of 0 indicates that 
+only the first frame is a key frame.  
+ 
+When used in conjunction with an IN 
+endpoint, the host shall indicate its 
+preference during the Probe phase. The 
+value must be from the range of values 
+supported by the device. 
+ 
+When used in conjunction with an OUT 
+endpoint, the host shall accept the value 
+indicated by the device."
+
+"10","wPFrameRate","2","Number","PFrame rate in PFrame/key frame units. 
+ 
+This field is only applicable to sources 
+(and formats) capable of streaming video 
+with adjustable compression parameters. 
+Use of this control is at the discretion of 
+the device, and is indicated in the VS 
+Input or Output Header descriptor.  
+ 
+The P Frame Rate Control is used to 
+specify the number of P frames per key 
+frame. As an example of the relationship 
+between the types of encoded frames, 
+suppose a key frame occurs once in 
+every 10 frames, and there are 3 P frames 
+per key frame. The P frames will be 
+spaced evenly between the key frames. 
+The other 6 frames, which occur between 
+the key frames and the P frames, will be 
+bi-directional (B) frames.
+
+When used in conjunction with an IN 
+endpoint, the host shall indicate its 
+preference during the Probe phase. The 
+value must be from the range of values 
+supported by the device. 
+ 
+When used in conjunction with an OUT 
+endpoint, the host shall accept the value 
+indicated by the device."
+
+"12","wCompQuality","2","Number","Compression quality control in abstract 
+units 1 (lowest) to 10000 (highest). 
+ 
+This field is only applicable to sources 
+(and formats) capable of streaming video 
+with adjustable compression parameters. 
+Use of this field is at the discretion of the 
+device, and is indicated in the VS Input 
+or Output Header descriptor. 
+ 
+This field is used to specify the quality of 
+the video compression. Values for this 
+property range from 1 to 10000 (1 
+indicates the lowest quality, 10000 the 
+highest). The resolution reported by this 
+control will determine the number of 
+discrete quality settings that it can 
+support.  
+ 
+When used in conjunction with an IN 
+endpoint, the host shall indicate its 
+preference during the Probe phase. The 
+value must be from the range of values 
+supported by the device. 
+ 
+When used in conjunction with an OUT 
+endpoint, the host shall accept the value 
+indicated by the device."
+
+"14","wCompWindowSize","2","Number","Window size for average bit rate control. 
+ 
+This field is only applicable to sources 
+(and formats) capable of streaming video 
+with adjustable compression parameters. 
+Use of this control is at the discretion of
+the device, and is indicated in the VS 
+Input or Output Header descriptor.  
+ 
+The Compression Window Size Control 
+is used to specify the number of encoded 
+video frames over which the average size 
+cannot exceed the specified data rate. For 
+a window of size n, the average frame 
+size of any consecutive n frames will not 
+exceed the stream's specified data rate. 
+Individual frames can be larger or 
+smaller.  
+ 
+For example, if the data rate has been set 
+to 100 kilobytes per second (KBps) on a 
+10 frames per second (fps) movie with a 
+compression window size of 10, the 
+individual frames can be any size, as 
+long as the average size of a frame in any 
+10-frame sequence is less than or equal 
+to 10 kilobytes.  
+ 
+When used in conjunction with an IN 
+endpoint, the host shall indicate its 
+preference during the Probe phase. The 
+value must be from the range of values 
+supported by the device. 
+ 
+When used in conjunction with an OUT 
+endpoint, the host shall accept the value 
+indicated by the device."
+
+"16","wDelay","2","Number","Internal video streaming interface latency 
+in ms from video data capture to 
+presentation on the USB. 
+ 
+When used in conjunction with an IN 
+endpoint, this field is set by the device 
+and read only from the host. 
+ 
+When used in conjunction with an OUT 
+endpoint, this field is set by the host and 
+read only from the device."
+
+"18","dwMaxVideoFrameSize","4","Number","Maximum video frame or codec-specific
+segment size in bytes. 
+ 
+For frame-based formats, this field 
+indicates the maximum size of a single 
+video frame. When streaming simulcast 
+this number reflects the maximum video 
+frame size of the negotiated Frame 
+descriptor. For frame-based formats, this 
+field must be supported. 
+ 
+For stream-based formats, and when this 
+behavior is enabled via the 
+bmFramingInfo field (below), this field 
+indicates the maximum size of a single 
+codec-specific segment. The sender is 
+required to indicate a segment boundary 
+via the FID bit in the payload header. 
+This field is ignored (for stream-based 
+formats) if the bmFramingInfo bits are 
+not enabled. 
+ 
+When used in conjunction with an IN 
+endpoint, this field is set by the device 
+and read only from the host. 
+ 
+When used in conjunction with an OUT 
+endpoint, this field is set by the host and 
+read only from the device."
+
+"22","dwMaxPayloadTransfer
+Size","4","Number","Specifies the maximum number of bytes 
+that the device can transmit or receive in 
+a single payload transfer. This field must 
+be supported. 
+ 
+This field is set by the device and read 
+only from the host. Some host 
+implementations restrict the maximum 
+value permitted for this field. The host 
+shall avoid overshoot of single payload 
+transfer size by reconfiguring the device. 
+(e.g. by updating bitrates, resolutions 
+etc.)"
+
+"26","dwClockFrequency","4","Number","The device clock frequency in Hz for the 
+specified format. This will specify the 
+units used for the time information fields
+in the Video Payload Headers in the data 
+stream. 
+ 
+This parameter is set by the device and 
+read only from the host."
+
+"30","bmFramingInfo","1","Bitmap","Bitfield control supporting the following 
+values: 
+ 
+D0:  If set to 1, the Frame ID (FID) 
+field is required in the Payload 
+Header (see description of D0 
+in section 2.4.3.3, “Video and 
+Still Image Payload Headers”). 
+The sender is required to toggle 
+the Frame ID at least every 
+dwMaxVideoFrameSize bytes 
+(see above). 
+D1:  If set to 1, indicates that the End 
+of Frame (EOF) field may be 
+present in the Payload Header 
+(see description of D1 in section 
+2.4.3.3, “Video and Still Image 
+Payload Headers”). It is an error 
+to specify this bit without also 
+specifying D0. 
+D2:  If set to 1, indicates that the End 
+of Slice (EOS) field may be 
+present in the Payload Header. 
+It is an error to specify this bit 
+without also specifying D0. 
+D7..3:  Reserved (0) 
+ 
+This control indicates to the function 
+whether payload transfers will contain 
+out-of-band framing information in the 
+Video Payload Header (see section 
+2.4.3.3, “Video and Still Image Payload 
+Headers”). 
+ 
+For known frame-based formats (e.g., 
+MJPEG, Uncompressed, DV), this field 
+is ignored. 
+ 
+For known stream-based formats, this
+field allows the sender to indicate that it 
+will identify segment boundaries in the 
+stream, enabling low-latency buffer 
+handling by the receiver without the 
+overhead of parsing the stream itself. 
+ 
+When used in conjunction with an IN 
+endpoint, this control is set by the device, 
+and is read-only from the host. 
+ 
+When used in conjunction with an OUT 
+endpoint, this parameter is set by the 
+host, and is read-only from the device."
+
+"31","bPreferedVersion","1","Number","The preferred payload format version 
+supported by the host or device for the 
+specified bFormatIndex value. 
+ 
+This parameter allows the host and 
+device to negotiate a mutually agreed 
+version of the payload format associated 
+with the bFormatIndex field. The host 
+initializes this and the following 
+bMinVersion and bMaxVersion fields 
+to zero on the first Probe Set. Upon 
+Probe Get, the device shall return its 
+preferred version, plus the minimum and 
+maximum versions supported by the 
+device (see bMinVersion and 
+bMaxVersion below). The host may 
+issue a subsequent Probe Set/Get 
+sequence to specify its preferred version 
+(within the ranges returned in 
+bMinVersion and bMaxVersion from 
+the initial Probe Set/Get sequence). The 
+host is not permitted to alter the 
+bMinVersion and bMaxVersion values. 
+ 
+This field will support up to 256 (1-255) 
+versions of a single payload format. The 
+version number is drawn from the minor 
+version of the Payload Format 
+specification. For example, version 1.2 of 
+a Payload Format specification would 
+result in a value of 2 for this parameter."
+
+"32","bMinVersion","1","Number","The minimum payload format version 
+supported by the device for the specified 
+bFormatIndex value. 
+ 
+This value is initialized to zero by the 
+host and reset to a value in the range of 1 
+to 255 by the device. The host is not 
+permitted to modify this value (other 
+than to restart the negotiation by setting 
+bPreferredVersion, bMinVersion and 
+bMaxVersion to zero)."
+
+"33","bMaxVersion","1","Number","The maximum payload format version 
+supported by the device for the specified 
+bFormatIndex value. 
+ 
+This value is initialized to zero by the 
+host and reset to a value in the range of 1 
+to 255 by the device. The host is not 
+permitted to modify this value (other 
+than to restart the negotiation by setting 
+bPreferredVersion, bMinVersion and 
+bMaxVersion to zero)."
+
+"34","bUsage","1","Number","Current bUsage: 
+1-8: Real-time modes 
+9-16: Broadcast modes 
+17-24: File storage modes 
+25 – 31: Multiview modes 
+32-255: Reserved 
+ 
+This bitmap enables features reported by 
+the bmUsages field of the Video Frame 
+Descriptor. 
+ 
+For temporally encoded video formats, 
+this field must be supported, even if the 
+device only supports a single value for 
+bUsage."
+
+"35","bBitDepthLuma","1","Number","Represents bit_depth_luma_minus8 + 8, 
+which must be the same as 
+bit_depth_chroma_minus8 + 8."
+
+"36","bmSettings","1","Bitmap","A bitmap of flags that is used to discover 
+and control specific features of a 
+temporally encoded video stream. When 
+it is supported, it is defined in the
+associated Payload specification. This 
+bitmap enables features reported by the 
+bmCapabilities field of the Video Frame 
+Descriptor. 
+ 
+For temporally encoded video formats, 
+this field must be supported."
+
+"37","bMaxNumberOfRefFra
+mesPlus1","1","Number","Host indicates the maximum number of 
+frames stored for use as references."
+
+"38","bmRateControlModes","2","Number","This field contains 4 subfields, each of 
+which is a 4 bit number.  
+ 
+It enables features reported by the 
+bmSupportedRateControlModes field 
+of the Video Format Descriptor. 
+ 
+Each 4 bit number indicates the rate-
+control mode for a stream of encoded 
+video. If the video payload does not 
+support rate control, this entire field 
+should be set to 0.  
+bmRateControlModes supports up to 
+four simulcast streams. For simulcast 
+transport the number of streams is 
+inferred from the bmLayoutPerStream 
+field.  Otherwise, the number of streams 
+is 1.  
+D3-D0: Rate-control mode for the first 
+simulcast stream (with stream_id=0.) 
+D7-D4: Rate-control mode for the 
+second  simulcast stream (with 
+stream_id=1). 
+D11-D8: Rate control mode for the third 
+simulcast stream (with stream_id=2). 
+D15-D12: Rate control mode for the 
+fourth simulcast stream (with 
+stream_id=3.)  
+When bmRateControlModes is non-
+zero, each 4-bit subfield can take one of 
+the following values:
+0: Not applicable, because this stream is 
+non-existent. 
+1: VBR with underflow allowed  
+2: CBR 
+3: Constant QP 
+4: Global VBR, underflow allowed  
+5: VBR without underflow  
+6: Global VBR without underflow  
+7-15: Reserved 
+ 
+For temporally encoded video formats, 
+this field must be supported, even if the 
+device only supports a single value for 
+bmRateControlModes."
+
+"40","bmLayoutPerStream","8","Number","This field contains 4 subfields, each of 
+which is a 2 byte number.  
+ 
+For simulcast transport, this field 
+indicates the specific layering structure 
+for each stream, up to four simulcast 
+streams. For a single, multi-layer stream, 
+only the first two bytes are used. For a 
+single stream with no enhancement 
+layers, this field shall be set to 0. See 
+individual payload specification for how 
+to interpret each 2 byte sub-field. 
+ 
+For temporally encoded video formats, 
+this field must be supported."
+
+
+p149-159

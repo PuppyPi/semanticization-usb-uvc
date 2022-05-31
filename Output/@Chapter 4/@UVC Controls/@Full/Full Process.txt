@@ -1,13 +1,16 @@
 ==0==
 . Copy down (from any PDF reader) the titles of each table!
 . Copy down the raw data with PDF Monkey :>
-+ Separate the rows to make sure lines in multiline cells haven't been made their own entire row! x'D
-+ Make sure the header row is captured correctly!
+
+
+==0.1==
+. Separate the rows to make sure lines in multiline cells haven't been made their own entire row! x'D
+. Make sure the header row is captured correctly!
 
 
 ==1==
-+ Merge tables that were split across page breaks in the PDF!
-+ Change PDF Monkey footers to just be page numbers
+. Merge tables that were split across page breaks in the PDF!
+. Change PDF Monkey footers to just be page numbers
 
 
 ==1 or 2==

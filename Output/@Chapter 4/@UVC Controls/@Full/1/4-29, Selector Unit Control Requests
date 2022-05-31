@@ -1,0 +1,14 @@
+
+"Control Selector","","SU_INPUT_SELECT_CONTROL","",""
+
+"Mandatory Requests","","SET_CUR, GET_CUR, GET_MIN, GET_MAX,GET_RES, 
+GET_INFO","",""
+
+"wLength","","1","",""
+
+"Offset","Field","Size","Value","Description"
+
+"0","bSelector","1","Number","The setting for the attribute of the 
+Selector Control."
+
+p109

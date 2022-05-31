@@ -1,0 +1,17 @@
+
+"Control Selector","","VS_UPDATE_FRAME_SEGMENT_CONTROL","",""
+
+"Mandatory Requests","","SET_CUR, GET_CUR, GET_MIN, GET_MAX, GET_RES, 
+GET_INFO, GET_DEF","",""
+
+"wLength","","2","",""
+
+"Offset","Field","Size","Value","Description"
+
+"0","bStartFrameSegment","1","Number","The zero-based index of the first frame 
+segment in the range to update"
+
+"1","bEndFrameSegment","1","Number","The zero-based index of the last frame 
+segment in the range to update"
+
+p169

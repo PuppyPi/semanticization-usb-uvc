@@ -1,0 +1,13 @@
+
+"Control Selector","","CT_FOCUS_AUTO_CONTROL","",""
+
+"Mandatory Requests","","SET_CUR, GET_CUR, GET_INFO, GET_DEF","",""
+
+"wLength","","1","",""
+
+"Offset","Field","Size","Value","Description"
+
+"0","bFocusAuto","1","Boolean","The setting for the attribute of the 
+addressed Focus Auto control."
+
+p101
