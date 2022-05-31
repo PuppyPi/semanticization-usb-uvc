@@ -1,0 +1,18 @@
+"Control Selector","","CT_AE_MODE_CONTROL","",""
+"Mandatory Requests","","SET_CUR, GET_CUR, GET_RES, GET_INFO, 
+GET_DEF","",""
+"wLength","","1","",""
+"Offset","Field","Size","Value","Description"
+"0","bAutoExposureMode","1","Bitmap","The setting for the attribute of the 
+addressed Auto-Exposure Mode 
+Control: 
+D0: Manual Mode – manual 
+Exposure Time, manual Iris 
+D1: Auto Mode – auto Exposure 
+Time, auto Iris 
+D2: Shutter Priority Mode – 
+manual Exposure Time, auto Iris 
+D3: Aperture Priority Mode – auto 
+Exposure Time, manual Iris 
+D4..D7: Reserved, set to zero."
+"UVC 1.5 Class specification.pdf","MD5:B4BF60666927B23B109549E411C99AF2","97","61.44000000000001","210.52999","478.9568476190478","237.01999999999998"

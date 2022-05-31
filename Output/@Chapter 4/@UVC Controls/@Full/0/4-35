@@ -1,0 +1,12 @@
+"Control Selector","","PU_POWER_LINE_FREQUENCY_CONTROL","",""
+"Mandatory Requests","","SET_CUR, GET_CUR, GET_INFO, GET_DEF","",""
+"wLength","","1","",""
+"Offset","Field","Size","Value","Description"
+"0","bPowerLineFrequency","1","Number","The setting for the attribute of the 
+addressed Power Line Frequency 
+control: 
+0: Disabled 
+1: 50 Hz 
+2: 60 Hz 
+3: Auto"
+"UVC 1.5 Class specification.pdf","MD5:B4BF60666927B23B109549E411C99AF2","113","61.44000000000001","473.82999","484.06001999999995","154.23001500000004"

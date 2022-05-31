@@ -1,0 +1,7 @@
+"Control Selector","","EU_PROFILE_TOOLSET_CONTROL","",""
+"Mandatory Requests","","SET_CUR, GET_CUR, GET_DEF, GET_INFO, 
+GET_LEN","",""
+"wLength","","5","",""
+"Offset","Field","Size","Value","Description"
+"0","wProfile","2","Number","wProfile indicates the profile and"
+"UVC 1.5 Class specification.pdf","MD5:B4BF60666927B23B109549E411C99AF2","129","66.62400000000001","120.25999000000013","469.03598999999997","86.30999999999983"

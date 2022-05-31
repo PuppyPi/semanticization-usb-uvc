@@ -1,0 +1,12 @@
+"4","wWindow_Bottom","2","Number","Bottom coordinate 
+In global sensor coordinates (pixels)"
+"6","wWindow_Right","2","Number","Right coordinate 
+In global sensor coordinates (pixels)"
+"8","wNumSteps","2","Number","Number of steps to move from current 
+window to window specified by rectangle 
+above."
+"10","bmNumStepsUnits","2","Bitmap","Units of number of steps specified above. 
+D0: video frames 
+D1: milliseconds 
+D2-D15: Reserved"
+"UVC 1.5 Class specification.pdf","MD5:B4BF60666927B23B109549E411C99AF2","108","71.864","572.3799999999999","463.65199000000007","147.38000000000005"

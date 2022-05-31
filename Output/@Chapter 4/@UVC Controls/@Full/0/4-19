@@ -1,0 +1,10 @@
+"Control Selector","","CT_IRIS_RELATIVE_CONTROL","",""
+"Mandatory Requests","","SET_CUR, GET_CUR, GET_INFO","",""
+"wLength","","1","",""
+"Offset","Field","Size","Value","Description"
+"0","bIrisRelative","1","Number","The setting for the attribute of the 
+addressed Iris (Relative) Control: 
+0: Default 
+1: Iris is opened by 1 step. 
+0xFF: Iris is closed by 1 step."
+"UVC 1.5 Class specification.pdf","MD5:B4BF60666927B23B109549E411C99AF2","102","61.44000000000001","364.250005","478.95190347826104","126.62"

@@ -1,0 +1,45 @@
+"","","","","in the Video Payload Headers in the data 
+stream. 
+ 
+This parameter is set by the device and 
+read only from the host."
+"30","bmFramingInfo","1","Bitmap","Bitfield control supporting the following 
+values: 
+ 
+D0:  If set to 1, the Frame ID (FID) 
+field is required in the Payload 
+Header (see description of D0 
+in section 2.4.3.3, “Video and 
+Still Image Payload Headers”). 
+The sender is required to toggle 
+the Frame ID at least every 
+dwMaxVideoFrameSize bytes 
+(see above). 
+D1:  If set to 1, indicates that the End 
+of Frame (EOF) field may be 
+present in the Payload Header 
+(see description of D1 in section 
+2.4.3.3, “Video and Still Image 
+Payload Headers”). It is an error 
+to specify this bit without also 
+specifying D0. 
+D2:  If set to 1, indicates that the End 
+of Slice (EOS) field may be 
+present in the Payload Header. 
+It is an error to specify this bit 
+without also specifying D0. 
+D7..3:  Reserved (0) 
+ 
+This control indicates to the function 
+whether payload transfers will contain 
+out-of-band framing information in the 
+Video Payload Header (see section 
+2.4.3.3, “Video and Still Image Payload 
+Headers”). 
+ 
+For known frame-based formats (e.g., 
+MJPEG, Uncompressed, DV), this field 
+is ignored. 
+ 
+For known stream-based formats, this"
+"UVC 1.5 Class specification.pdf","MD5:B4BF60666927B23B109549E411C99AF2","155","61.08","111.97998999999993","482.95479200000005","607.7800100000001"

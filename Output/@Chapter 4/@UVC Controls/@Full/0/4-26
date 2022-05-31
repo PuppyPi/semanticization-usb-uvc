@@ -1,0 +1,10 @@
+"Control Selector","","CT_PRIVACY_CONTROL","",""
+"Mandatory Requests","","GET_CUR, GET_INFO","",""
+"Optional Requests","","SET_CUR","",""
+"wLength","","1","",""
+"Offset","Field","Size","Value","Description"
+"0","bPrivacy","1","Boolean","The setting for the attribute of the 
+addressed Privacy Control: 
+0: Open 
+1: Close"
+"UVC 1.5 Class specification.pdf","MD5:B4BF60666927B23B109549E411C99AF2","107","61.44000000000001","347.930005","478.95190347826104","127.10000000000002"

@@ -1,0 +1,40 @@
+"","","","","wLayerOrViewID. 
+3: Generate a non-IDR random-access I frame 
+for the associated dependency layers of the 
+current wLayerOrViewID.  
+4: Generate a non-IDR random-access I frame 
+that is a long-term reference frame for the 
+associated dependency layers of the current 
+wLayerOrViewID.  
+5: Generate a P frame that is a-long term 
+reference frame for the associated dependency 
+layers of the current wLayerOrViewID. 
+6: Gradual Decoder Refresh (GDR) 
+7-255: Reserved."
+"1","wSyncFrameInte
+rval","2","Number","In milliseconds. This field indicates the periodic 
+recurrences of the selected bSyncFrameType. 
+A value of wSyncFrameInterval = 0 indicates 
+a single bSyncFrameType with no requirement 
+for periodic recurrence."
+"3","bGradualDecode
+rRefresh","1","Number","Indicates a count of frames over which the 
+gradual decoder refresh occurs. Only valid 
+when bSyncFrameType = 6 (GDR). When 
+bSyncFrameType is not 6, this field must be 0. 
+From a recovery point of view, 
+bGradualDecoderRefresh + 1 represents the 
+number of frames required to completely 
+refresh the picture.  
+ 
+Bits: 
+0-6: recovery_frame_cnt 
+7: Reserved 
+ 
+Use wSyncFrameInterval to establish the 
+interval between Gradual Decoder Refresh 
+(GDR) periods. 
+When using GDR, the encoder should use 
+recovery point SEI messages to indicate gradual 
+decoder refresh access points."
+"UVC 1.5 Class specification.pdf","MD5:B4BF60666927B23B109549E411C99AF2","139","66.62400000000001","229.24999000000014","455.47599","490.51000999999985"

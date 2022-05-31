@@ -1,0 +1,11 @@
+"","","GET_MAX, GET_RES","",""
+"wLength","","2","",""
+"Offset","Field","Size","Value","Description"
+"0","bRollRelative","1","Signed 
+number","The setting for the attribute of the 
+addressed Roll (Relative) Control: 
+0: Stop 
+1: moving clockwise rotation 
+0xFF: moving counter clockwise rotation"
+"1","bSpeed","1","Number","Speed for the Roll movement"
+"UVC 1.5 Class specification.pdf","MD5:B4BF60666927B23B109549E411C99AF2","107","61.44000000000001","593.14","478.95190347826104","126.61999999999998"

@@ -1,0 +1,22 @@
+"","","","","applicable constraints for the current 
+format. This field is used with video 
+formats that support multiple profiles. For 
+example, for H.264: 
+0x4240: Constrained Baseline Profile 
+0x4200: Baseline Profile 
+0x4D00: Main Profile 
+0x640C: Constrained High Profile 
+0x6400: High Profile 
+0x5304: Scalable Constrained Baseline Profile 
+0x5300: Scalable Baseline Profile 
+0x5604: Scalable Constrained High Profile 
+0x5600: Scalable High Profile 
+0x7600: Multiview High Profile 
+0x8000: Stereo High Profile"
+"2","wConstrainedToolset","2","Number","Reserved. Set to 0."
+"4","bmSettings","1","Bitmap","This bitmap enables features reported by 
+the bmCapabilities field of the Video 
+Format Descriptor. 
+ 
+Refer to payload specification for details."
+"UVC 1.5 Class specification.pdf","MD5:B4BF60666927B23B109549E411C99AF2","130","66.62400000000001","439.150005","469.03598999999997","280.60999499999997"

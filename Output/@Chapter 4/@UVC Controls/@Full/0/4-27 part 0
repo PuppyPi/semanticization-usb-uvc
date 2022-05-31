@@ -1,0 +1,10 @@
+"Control Selector","","CT_DIGITAL_WINDOW_CONTROL","",""
+"Mandatory Requests","","SET_CUR, GET_CUR, GET_MIN, GET_MAX, GET_DEF","",""
+"wLength","","12","",""
+"Offse
+t","Field","Size","Value","Description"
+"0","wWindow_Top","2","Number","Top coordinate 
+In global sensor coordinates (pixels)"
+"2","wWindow_Left","2","Number","Left coordinate 
+In global sensor coordinates (pixels)"
+"UVC 1.5 Class specification.pdf","MD5:B4BF60666927B23B109549E411C99AF2","107","71.91323076923078","117.97998999999993","463.7467592307692","125.79000000000008"
