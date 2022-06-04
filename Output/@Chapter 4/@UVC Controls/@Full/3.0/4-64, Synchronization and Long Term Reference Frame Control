@@ -1,0 +1,57 @@
+"Control Selector","","EU_SYNC_REF_FRAME_CONTROL","",""
+"Mandatory Requests","","SET_CUR, GET_CUR, GET_MIN, GET_MAX, GET_INFO, GET_LEN","",""
+"wLength","","4","",""
+
+"Offset","Field","Size","Value","Description"
+"0","bSyncFrameType","1","Number","0: Reset. Allow the encoder to determine the
+timing and type of synchronization frames.
+1: Generate an IDR frame for all of the
+dependency layers of the current stream, if all
+of the layers of the current stream have
+quality_id equal to 0. Otherwise, generate key
+frames for all the dependency layers.
+2: Generate an IDR frame that is a long-term
+reference frame for all of the dependency layers
+of the current stream, if all of the layers of the
+current stream have quality_id equal to 0.
+Otherwise, generate a key frame for the
+associated dependency layers of the current
+wLayerOrViewID.
+3: Generate a non-IDR random-access I frame
+for the associated dependency layers of the
+current wLayerOrViewID.
+4: Generate a non-IDR random-access I frame
+that is a long-term reference frame for the
+associated dependency layers of the current
+wLayerOrViewID.
+5: Generate a P frame that is a-long term
+reference frame for the associated dependency
+layers of the current wLayerOrViewID.
+6: Gradual Decoder Refresh (GDR)
+7-255: Reserved."
+"1","wSyncFrameInterval","2","Number","In milliseconds. This field indicates the periodic
+recurrences of the selected bSyncFrameType.
+A value of wSyncFrameInterval = 0 indicates
+a single bSyncFrameType with no requirement
+for periodic recurrence."
+"3","bGradualDecoderRefresh","1","Number","Indicates a count of frames over which the
+gradual decoder refresh occurs. Only valid
+when bSyncFrameType = 6 (GDR). When
+bSyncFrameType is not 6, this field must be 0.
+From a recovery point of view,
+bGradualDecoderRefresh + 1 represents the
+number of frames required to completely
+refresh the picture.
+
+Bits:
+0-6: recovery_frame_cnt
+7: Reserved
+
+Use wSyncFrameInterval to establish the
+interval between Gradual Decoder Refresh
+(GDR) periods.
+When using GDR, the encoder should use
+recovery point SEI messages to indicate gradual
+decoder refresh access points."
+
+p138-139

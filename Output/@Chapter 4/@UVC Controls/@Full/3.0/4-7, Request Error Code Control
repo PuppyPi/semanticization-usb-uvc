@@ -1,0 +1,18 @@
+"Control Selector","","VC_REQUEST_ERROR_CODE_CONTROL","",""
+"Mandatory Requests","","GET_CUR, GET_INFO","",""
+"wLength","","1","",""
+
+"Offset","Field","Size","Value","Description"
+"0","bRequestErrorCode","1","Number","0x00: No error
+0x01: Not ready
+0x02: Wrong state
+0x03: Power
+0x04: Out of range
+0x05: Invalid unit
+0x06: Invalid control
+0x07: Invalid Request
+0x08: Invalid value within range
+0x09-0xFE: Reserved for future use
+0xFF: Unknown"
+
+p94

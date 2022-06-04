@@ -1,0 +1,16 @@
+"Control Selector","","PU_ANALOG_VIDEO_STANDARD_CONTROL","",""
+"Mandatory Requests","","GET_CUR, GET_INFO","",""
+"wLength","","1","",""
+
+"Offset","Field","Size","Value","Description"
+"0","bVideoStandard","1","Number","The Analog Video Standard of the input
+video signal.
+0: None
+1: NTSC – 525/60
+2: PAL – 625/50
+3: SECAM – 625/50
+4: NTSC – 625/50
+5: PAL – 525/60
+6-255: Reserved. Do not use."
+
+p118

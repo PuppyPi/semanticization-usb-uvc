@@ -1,0 +1,13 @@
+"Control Selector","","CT_EXPOSURE_TIME_RELATIVE_CONTROL","",""
+"Mandatory Requests","","SET_CUR, GET_CUR, GET_INFO","",""
+"wLength","","1","",""
+
+"Offset","Field","Size","Value","Description"
+"0","bExposureTimeRelative","1","Signed Number","The setting for the attribute of the
+addressed Exposure Time (Relative)
+Control:
+0: default
+1: incremented by 1 step
+0xFF: decremented by 1 step"
+
+p99

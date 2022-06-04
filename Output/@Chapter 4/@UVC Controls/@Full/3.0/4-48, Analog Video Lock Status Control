@@ -1,0 +1,10 @@
+"Control Selector","PU_ANALOG_LOCK_STATUS_CONTROL"
+"Mandatory Requests","GET_CUR, GET_INFO"
+"wLength","1"
+
+"Offset","Field","Size","Value","Description"
+"0","bStatus","1","Number","0: Video Decoder is locked.
+1: Video Decoder is not locked.
+2-255: Reserved. Do not use."
+
+p118-119

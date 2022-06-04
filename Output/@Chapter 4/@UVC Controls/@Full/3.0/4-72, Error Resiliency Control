@@ -1,0 +1,9 @@
+"Control Selector","","EU_ERROR_RESILIENCY_CONTROL","",""
+"Mandatory Requests","","SET_CUR, GET_CUR,  GET_DEF, GET_RES","",""
+"wLength","","2","",""
+
+"Offset","Field","Size","Value","Description"
+"0","bmErrorResiliencyFeatures","2","Bitmap","Payload format specific bitmap of
+available error resiliency features."
+
+p146
