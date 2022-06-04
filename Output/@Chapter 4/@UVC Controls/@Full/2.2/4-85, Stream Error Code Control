@@ -1,0 +1,44 @@
+"Control Selector","","VS_STREAM_ERROR_CODE_CONTROL","",""
+"Mandatory Requests","","GET_CUR, GET_INFO","",""
+"wLength","","1","",""
+
+"Offset","Field","Size","Value","Description"
+
+"0","bStreamErrorCode","1","Number","0: No Error. 
+ 
+1: Protected content – This situation 
+occurs if the data source device detects 
+that the video or still-image data is
+protected and cannot be transmitted. In 
+this case, empty packets containing only 
+headers will be sent for the duration of 
+the protected content. 
+ 
+2: Input buffer underrun – If the data 
+source device is not able to supply data at 
+the requested rate, it will transmit empty 
+packets containing only headers for the 
+duration of the buffer underrun. 
+ 
+3. Data discontinuity – Indicates a data 
+discontinuity (arising from bad media, 
+encoder errors, etc.) preceding the data 
+payload in the current transfer. 
+ 
+4: Output buffer underrun – The data sink 
+device is not being supplied with data at a 
+sufficient rate. 
+ 
+5: Output buffer overrun – The data sink 
+device is being supplied with data at a 
+rate exceeding its buffering capabilities. 
+ 
+6: Format change – A dynamic format 
+change event occurred. See section 
+2.4.3.6, ""Device Initiated Dynamic 
+Format Change Support"". 
+ 
+7: Still image capture error - An error 
+occurred during still-image capture."
+
+p169-170

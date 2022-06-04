@@ -1,0 +1,14 @@
+"Control Selector","","CT_PANTILT_ABSOLUTE_CONTROL","",""
+"Mandatory Requests","","GET_CUR, GET_MIN, GET_MAX, GET_RES, GET_INFO, GET_DEF","",""
+"Optional Requests","","SET_CUR","",""
+"wLength","","8","",""
+
+"Offset","Field","Size","Value","Description"
+
+"0","dwPanAbsolute","4","Signed number","The setting for the attribute of the 
+addressed Pan (Absolute) Control."
+
+"4","dwTiltAbsolute","4","Signed number","The setting for the attribute of the 
+addressed Tilt (Absolute) Control."
+
+p104

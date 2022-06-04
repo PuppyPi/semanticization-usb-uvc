@@ -19,10 +19,10 @@
 
 
 ==2==
-+ Remove spurious columns from the original PDF Monkey output (eg, all the "","","") so that the columns given match up with the actual tables!
-+ Correct any errors noticed
-+ Make sure escaping is done right!
-+ Line endings to standard! (0x0A)
+x Remove spurious columns from the original PDF Monkey output (eg, all the "","","") so that the columns given match up with the actual tables!
+. Correct any errors noticed
+. Make sure escaping is done right!
+. Line endings to standard! (0x0A)
 
 
 ==3==

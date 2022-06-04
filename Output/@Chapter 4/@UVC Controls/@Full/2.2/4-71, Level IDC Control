@@ -1,0 +1,18 @@
+"Control Selector","","EU_LEVEL_IDC_LIMIT_CONTROL","",""
+"Mandatory Requests","","SET_CUR, GET_CUR, GET_MIN, GET_MAX, GET_DEF","",""
+"wLength","","1","",""
+
+"Offset","Field","Size","Value","Description"
+
+"0","bLevelIDC","1","Number","The level, as specified by the level_idc flag (9, 10, 11, 12, 
+13, 20, 21, 22, 30, 31, 32, 40, 41, 42, etc). For example:  
+0x1F: Level 3.1. 
+0x28: Level 4.0. 
+ 
+Note that this should indicate the minimum level that 
+supports the resolution, maximum bit rate and CPB size 
+set for the stream. For a multi-layer stream this refers to 
+the highest enhancement layer. For multi-view streams 
+this refers to all views."
+
+p145

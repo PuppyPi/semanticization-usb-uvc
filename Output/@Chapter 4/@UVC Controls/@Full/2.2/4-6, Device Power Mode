@@ -1,0 +1,30 @@
+"Control Selector","","VC_VIDEO_POWER_MODE_CONTROL","","","","",""
+"Mandatory Requests","","SET_CUR, GET_CUR, GET_INFO","","","","",""
+"wLength","","1","","","","",""
+
+"Offset","Field","Size","Value","Description"
+
+"0","bDevicePowerMode","1","Bitmap","D3..0 (Read-Write)
+Power Mode setting 
+0000B:Full power mode  
+0001B:device dependent 
+power mode (opt.) 
+All other bits are reserved.
+
+D4 (Read-Only)
+Device dependent power 
+mode supported.
+
+D5 (Read-Only)
+Device uses power 
+supplied by USB.
+
+D6 (Read-Only)
+Device uses power 
+supplied by Battery.
+
+D7 (Read-Only)
+Device uses power 
+supplied by A.C."
+
+p93-94

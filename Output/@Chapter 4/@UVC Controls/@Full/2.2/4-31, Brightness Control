@@ -1,0 +1,10 @@
+"Control Selector","","PU_BRIGHTNESS_CONTROL","",""
+"Mandatory Requests","","SET_CUR, GET_CUR, GET_MIN, GET_MAX, GET_RES, GET_INFO, GET_DEF","",""
+"wLength","","2","",""
+
+"Offset","Field","Size","Value","Description"
+
+"0","wBrightness","2","Signed number","The setting for the attribute of the 
+addressed Brightness control."
+
+p111

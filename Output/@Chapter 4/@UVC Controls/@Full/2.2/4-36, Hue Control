@@ -1,0 +1,11 @@
+"Control Selector","","PU_HUE_CONTROL","",""
+"Mandatory Requests","","GET_CUR, GET_MIN, GET_MAX, GET_RES, GET_INFO, GET_DEF","",""
+"Optional Requests","","SET_CUR","",""
+"wLength","","2","",""
+
+"Offset","Field","Size","Value","Description"
+
+"0","wHue","2","Signed Number","The setting for the attribute of the 
+addressed Hue control."
+
+p113

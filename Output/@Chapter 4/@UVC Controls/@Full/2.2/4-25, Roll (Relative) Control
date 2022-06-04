@@ -1,0 +1,15 @@
+"Control Selector","CT_ROLL_RELATIVE_CONTROL"
+"Mandatory Requests","SET_CUR, GET_CUR, GET_INFO, GET_DEF, GET_MIN, GET_MAX, GET_RES","",""
+"wLength","","2","",""
+
+"Offset","Field","Size","Value","Description"
+
+"0","bRollRelative","1","Signed number","The setting for the attribute of the 
+addressed Roll (Relative) Control: 
+0: Stop 
+1: moving clockwise rotation 
+0xFF: moving counter clockwise rotation"
+
+"1","bSpeed","1","Number","Speed for the Roll movement"
+
+p106-107
