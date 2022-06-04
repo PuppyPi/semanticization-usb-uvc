@@ -1,0 +1,9 @@
+"Control Selector","","PU_DIGITAL_MULTIPLIER_LIMIT_CONTROL","",""
+"Mandatory Requests","","SET_CUR, GET_CUR, GET_MIN, GET_MAX, GET_RES, GET_INFO, GET_DEF","",""
+"wLength","","2","",""
+
+"Offset","Field","Size","Value","Description"
+"0","wMultiplierLimit","2","Number","A value specifying the upper bound for 
+Z'[cur]"
+
+p118

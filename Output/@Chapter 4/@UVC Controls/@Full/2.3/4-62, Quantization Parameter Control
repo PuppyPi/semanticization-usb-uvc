@@ -1,0 +1,19 @@
+"Control Selector","","EU_QUANTIZATION_PARAMS_CONTROL","",""
+"Mandatory Requests","","SET_CUR, GET_CUR, GET_MAX, GET_MIN, GET_DEF, GET_INFO, GET_LEN, GET_RES","",""
+"wLength","","6","",""
+
+"Offset","Field","Size","Value","Description"
+"0","wQpPrime_I","2","Number","Only applicable in constant QP rate-control mode. 
+Use this parameter to set/get QP for I frames. The 
+details on how to interpret this number is located in 
+the appropriate payload specification."
+"2","wQpPrime_P","2","Number","Only applicable in constant QP rate-control mode. 
+Use this parameter to set/get QP for P frames. The 
+details on how to interpret this number is located in 
+the appropriate payload specification."
+"4","wQpPrime_B","2","Number","Only applicable in constant QP rate control mode. 
+Use this parameter to set/get QP for B frames. The 
+details on how to interpret this number is located in 
+the appropriate payload specification."
+
+p137

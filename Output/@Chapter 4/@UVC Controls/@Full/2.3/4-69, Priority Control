@@ -1,0 +1,9 @@
+"Control Selector","","EU_PRIORITY_CONTROL","",""
+"Mandatory Requests","","SET_CUR, GET_CUR, GET_INFO, GET_LEN","",""
+"wLength","","1","",""
+
+"Offset","Field","Size","Value","Description"
+"0","bPriority","1","Number","The value of priority for the scalable layer specified by 
+the current wLayerOrViewID."
+
+p144

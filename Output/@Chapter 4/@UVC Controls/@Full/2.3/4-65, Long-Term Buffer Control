@@ -1,0 +1,14 @@
+"Control Selector","","EU_LTR_BUFFER_CONTROL","",""
+"Mandatory Requests","","SET_CUR, GET_CUR, GET_DEF, GET_INFO, GET_LEN, GET_MAX","",""
+"wLength","","2","",""
+
+"Offset","Field","Size","Value","Description"
+"0","bNumHostControlLTRBuffers","1","Number","Number of Long-Term Reference Frames the host 
+can control."
+"1","bTrustMode","1","Number","Trust mode for the LTR feature.  
+0 – For each inserted LTR, device sets associated 
+bit in bmValidLTRs to 0 (Don’t Trust Until) 
+1 – For each inserted LTR, device sets associated 
+bit in bmValidLTRs to 1 (Trust Until)"
+
+p140

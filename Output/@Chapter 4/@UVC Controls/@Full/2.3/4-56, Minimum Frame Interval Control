@@ -1,0 +1,15 @@
+"Control Selector","EU_MIN_FRAME_INTERVAL_CONTROL"
+"Mandatory Requests","SET_CUR, GET_CUR, GET_MIN, GET_MAX, GET_DEF, GET_INFO, GET_LEN"
+"wLength","4"
+
+"Offset","Field","Size","Value","Description"
+"0","dwFrameInterval","4","Number","Frame interval in 100-ns units. Cannot go below 
+the value of dwFrameInterval set in 
+Probe/Commit. The value must be an interval 
+advertised in the associated Frame Descriptor that 
+has the same resolution, profile, and toolset of the 
+current stream. 
+This control is applied per stream and ignores any 
+layer information in wLayerOrViewID."
+
+p130-131

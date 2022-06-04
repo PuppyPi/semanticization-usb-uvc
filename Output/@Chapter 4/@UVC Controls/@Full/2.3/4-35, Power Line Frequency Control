@@ -1,0 +1,14 @@
+"Control Selector","","PU_POWER_LINE_FREQUENCY_CONTROL","",""
+"Mandatory Requests","","SET_CUR, GET_CUR, GET_INFO, GET_DEF","",""
+"wLength","","1","",""
+
+"Offset","Field","Size","Value","Description"
+"0","bPowerLineFrequency","1","Number","The setting for the attribute of the 
+addressed Power Line Frequency 
+control: 
+0: Disabled 
+1: 50 Hz 
+2: 60 Hz 
+3: Auto"
+
+p113

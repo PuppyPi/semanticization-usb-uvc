@@ -1,0 +1,11 @@
+"Control Selector","","VS_GENERATE_KEY_FRAME_CONTROL","",""
+"Mandatory Requests","","SET_CUR, GET_CUR, GET_INFO","",""
+"wLength","","1","",""
+
+"Offset","Field","Size","Value","Description"
+"0","bGenerateKeyFrame","1","Number","The setting for the attribute of the 
+addressed Generate Key Frame control: 
+0: Normal operation 
+1: Generate Key Frame"
+
+p168

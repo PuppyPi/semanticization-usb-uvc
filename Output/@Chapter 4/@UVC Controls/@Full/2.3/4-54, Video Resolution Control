@@ -1,0 +1,11 @@
+"Control Selector","","EU_VIDEO_RESOLUTION_CONTROL","",""
+"Mandatory Requests","","SET_CUR, GET_CUR, GET_MIN, GET_MAX, GET_DEF, GET_INFO, GET_LEN","",""
+"wLength","","4","",""
+
+"Offset","Field","Size","Value","Description"
+"0","wWidth","2","Number","The width, in pixels, of pictures output from the 
+decoding process."
+"2","wHeight","2","Number","The height, in pixels, of pictures output from the 
+decoding process."
+
+p129

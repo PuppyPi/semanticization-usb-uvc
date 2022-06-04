@@ -1,0 +1,11 @@
+"Control Selector","","PU_CONTRAST_AUTO_CONTROL","",""
+"Mandatory Requests","","SET_CUR, GET_CUR, GET_INFO, GET_DEF","",""
+"wLength","","1","",""
+
+"Offset","Field","Size","Value","Description"
+"0","bContrastAuto","1","Number","The setting for the 
+attribute of the 
+addressed Contrast, 
+Auto control."
+
+p112
