@@ -1,0 +1,11 @@
+"Control Selector","","CT_SCANNING_MODE_CONTROL","",""
+"Mandatory Requests","","SET_CUR, GET_CUR, GET_INFO","",""
+"wLength","","1","",""
+
+"Offset","Field","Size","Value","Description"
+"0","bScanningMode","1","Boolean","The setting for the attribute of the
+addressed Scanning Mode Control:
+0: Interlaced
+1: Progressive"
+
+p97

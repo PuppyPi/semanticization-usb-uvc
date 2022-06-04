@@ -1,0 +1,12 @@
+"Control Selector","","CT_PRIVACY_CONTROL","",""
+"Mandatory Requests","","GET_CUR, GET_INFO","",""
+"Optional Requests","","SET_CUR","",""
+"wLength","","1","",""
+
+"Offset","Field","Size","Value","Description"
+"0","bPrivacy","1","Boolean","The setting for the attribute of the
+addressed Privacy Control:
+0: Open
+1: Close"
+
+p107

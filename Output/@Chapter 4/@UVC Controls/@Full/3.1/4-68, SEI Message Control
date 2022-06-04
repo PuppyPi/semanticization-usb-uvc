@@ -1,0 +1,56 @@
+"Control Selector","","EU_SEI_PAYLOADTYPE_CONTROL","",""
+"Mandatory Requests","","SET_CUR, GET_CUR, GET_INFO, GET_DEF, GET_MAX, GET_MIN","",""
+"wLength","","8","",""
+
+"Offset","Field","Size","Value","Description"
+"0","bmSEIMessages","8","Bitmap","A bit set indicates the associated SEI type is
+enabled.
+D0: buffering_period
+D1: pic_timing
+D2: pan_scan_rect
+D3: filler_payload
+D4: user_data_registered_itu_t_t35
+D5: user_data_unregistered
+D6: recovery_point
+D7: dec_ref_pic_marking_repetition
+D8: spare_pic
+D9: scene_info
+D10: sub_seq_info
+D11: sub_seq_layer_characteristics
+D12: sub_seq_characteristics
+D13: full_frame_freeze
+D14: full_frame_freeze_release
+D15: full_frame_snapshot
+D16: progressive_refinement_segment_start
+D17: progressive_refinement_segment_end
+D18: motion_constrained_slice_group_set
+D19: film_grain_characteristics
+D20: deblocking_filter_display_preference
+D21: stereo_video_info
+D22: post_filter_hint
+D23: tone_mapping_info
+D24: scalability_info
+D25: sub_pic_scalable_layer
+D26: non_required_layer_rep
+D27: priority_layer_info
+D28: layers_not_present
+D29: layer_dependency_change
+D30: scalable_nesting
+D31: base_layer_temporal_hrd
+D32: quality_layer_integrity_check
+D33: redundant_pic_property
+D34: tl0_dep_rep_index
+D35: tl_switching_point
+D36: parallel_decoding_info
+D37: mvc_scalable_nesting
+D38: view_scalability_info
+D39: multiview_scene_info
+D40: multiview_acquisition_info
+D41: non_required_view_component
+D42: view_dependency_change
+D43: operation_points_not_present
+D44: base_view_temporal_hrd
+D45: frame_packing_arrangement
+D63..D46: Reserved. Set to 0"
+
+p143-144
