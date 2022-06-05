@@ -71,7 +71,6 @@
 	Size of each bmaControls(x) field, in
 	bytes: n
 
-
 "13","bmaControls(1)","n","Bitmap"
 	For bits D3..0, a bit set to 1 indicates that
 	the named field is supported by the Video
