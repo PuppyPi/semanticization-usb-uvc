@@ -1,0 +1,15 @@
+"Attribute","Description"
+"GET_CUR","Returns the current state of the device. Prior to the initial SET_CUR
+operation, the GET_CUR state is undefined."
+"GET_MIN","Returns the minimum value for negotiated fields."
+"GET_MAX","Returns the maximum value for negotiated fields."
+"GET_RES","Not specified."
+"GET_DEF","Returns the default value for negotiated fields."
+"GET_LEN","Returns the length of the Probe data structure."
+"GET_INFO","Queries the capabilities and status of the Control. The value returned for
+this request shall have bits D0 and D1 each set to one (1), and the
+remaining bits set to zero (0) (see section 4.1.2, “Get Request”)."
+"SET_CUR","Sets the streaming interface state. This is the state used for stream
+parameters negotiations."
+
+p166

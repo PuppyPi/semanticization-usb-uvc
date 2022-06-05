@@ -1,0 +1,94 @@
+"Offset","Field","Size","Value","Description"
+"0","bLength","1","Number","Size of this descriptor, in bytes: 13+(p*n)."
+"1","bDescriptorType","1","Constant","CS_INTERFACE descriptor type"
+"2","bDescriptorSubtype","1","Constant","VS_INPUT_HEADER descriptor subtype"
+"3","bNumFormats","1","Number","Number of video payload Format
+descriptors following for this interface
+(excluding video Frame descriptors): p"
+"4","wTotalLength","2","Number","Total number of bytes returned for the
+class-specific VideoStreaming interface
+descriptors including this header
+descriptor."
+"6","bEndpointAddress","1","Endpoint","The address of the isochronous or bulk
+endpoint used for video data. The address
+is encoded as follows:
+D7: Direction
+1 = IN endpoint
+D6..4: Reserved, set to zero.
+D3..0: The endpoint number, determined
+by the designer."
+"7","bmInfo","1","Bitmap","Indicates the capabilities of this
+VideoStreaming interface:
+D0: Dynamic Format Change supported
+D7..1: Reserved, set to zero."
+"8","bTerminalLink","1","Constant","The terminal ID of the Output Terminal to
+which the video endpoint of this interface
+is connected."
+"9","bStillCaptureMethod","1","Number","Method of still image capture supported as
+described in section 2.4.2.4, ""Still Image
+Capture"":
+0: None (Host software will not support
+any form of still image capture)
+1: Method 1
+2: Method 2
+3: Method 3"
+"10","bTriggerSupport","1","Number","Specifies if hardware triggering is
+supported through this interface
+0: Not supported
+1: Supported"
+"11","bTriggerUsage","1","Number","Specifies how the host software shall
+respond to a hardware trigger interrupt
+event from this interface. This is ignored if
+the bTriggerSupport field is zero.
+0: Initiate still image capture
+1: General purpose button event. Host
+driver will notify client application of
+button press and button release events"
+"12","bControlSize","1","Number","Size of each bmaControls(x) field, in
+bytes: n"
+"13","bmaControls(1)","n","Bitmap","For bits D3..0, a bit set to 1 indicates that
+the named field is supported by the Video
+Probe and Commit Control when
+bFormatIndex is 1:
+D0: wKeyFrameRate
+D1: wPFrameRate
+D2: wCompQuality
+D3: wCompWindowSize
+
+For bits D5..4, a bit set to 1 indicates that
+the named control is supported by the
+device when bFormatIndex is 1:
+D4: Generate Key Frame
+D5: Update Frame Segment
+D6..(n*8-1): Reserved, set to zero
+
+*Note* going forward from version 1.5 the
+proper means to detect whether a field is
+supported by Probe & Commit is to issue a
+VS_PROBE_CONTROL(GET_CUR)."
+"...","...","...","...","..."
+"13+(p*n-n)","bmaControls(p)","n","Bitmap","For bits D3..0, a bit set to 1 indicates that
+the named field is supported by the Video
+Probe and Commit Control when
+bFormatIndex is p:
+D0: wKeyFrameRate
+D1: wPFrameRate
+D2: wCompQuality
+D3: wCompWindowSize
+
+For bits D5..4, a bit set to 1 indicates that
+the named control is supported by the
+device when bFormatIndex is p:
+D4: Generate Key Frame
+D5: Update Frame Segment
+D6..(n*8-1): Reserved, set to zero
+
+*Note* D0-D3 are deprecated. Going
+forward from version 1.5 the proper means
+to detect whether a field is supported by
+Probe & Commit is to issue a
+VS_PROBE_CONTROL(GET_CUR)."
+
+
+
+p77-79

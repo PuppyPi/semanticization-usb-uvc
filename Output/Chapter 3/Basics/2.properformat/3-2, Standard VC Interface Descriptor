@@ -1,0 +1,29 @@
+"Offset","Field","Size","Value","Description"
+"0","bLength","1","Number","Size of this descriptor, in bytes: 9"
+"1","bDescriptorType","1","Constant","INTERFACE descriptor type"
+"2","bInterfaceNumber","1","Number","Number of interface. A zero-based value
+identifying the index in the array of
+concurrent interfaces supported by this
+configuration."
+"3","bAlternateSetting","1","Number","Value used to select an alternate setting for
+the interface identified in the prior field."
+"4","bNumEndpoints","1","Number","Number of endpoints used by this interface
+(excluding endpoint 0). This number is 0 or
+1 depending on whether the optional status
+interrupt endpoint is present."
+"5","bInterfaceClass","1","Class","CC_VIDEO. Video Interface Class code
+(assigned by the USB). See section A.1,
+""Video Interface Class Code""."
+"6","bInterfaceSubClass","1","Subclass","SC_VIDEOCONTROL. Video Interface
+Subclass code. Assigned by this
+specification. See section A.2, ""Video
+Interface Subclass Codes""."
+"7","bInterfaceProtocol","1","Protocol","Must be set to PC_PROTOCOL_15."
+"8","iInterface","1","Index","Index of a string descriptor that describes
+this interface. This must be used for the
+device (function) name and be
+implemented in US English (LANGID =
+0x0409) at the minimum."
+
+
+p62

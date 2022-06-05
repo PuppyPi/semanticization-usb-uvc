@@ -1,0 +1,56 @@
+"Offset","Field","Size","Value","Description"
+"0","bLength","1","Number","Size of this descriptor, in bytes: 9+(p*n)"
+"1","bDescriptorType","1","Constant","CS_INTERFACE descriptor type"
+"2","bDescriptorSubtype","1","Constant","VS_OUTPUT_HEADER descriptor
+subtype"
+"3","bNumFormats","1","Number","Number of video payload Format
+descriptors following for this interface
+(excluding video Frame descriptors): p"
+"4","wTotalLength","2","Number","Total number of bytes returned for the
+class-specific VideoStreaming interface
+descriptors including this header
+descriptor."
+"6","bEndpointAddress","1","Endpoint","The address of the isochronous or bulk
+endpoint used for video data. The address
+is encoded as follows:
+D7: Direction
+0 = OUT endpoint
+D6..4: Reserved, set to zero
+D3..0: The endpoint number, determined
+by the designer."
+"7","bTerminalLink","1","Constant","The terminal ID of the Input Terminal to
+which the video endpoint of this interface
+is connected."
+"8","bControlSize","1","Number","Size of each bmaControls(x) field, in
+bytes: n"
+"9","bmaControls(1)","n","Bitmap","For bits D3..0, a bit set to 1 indicates that
+the named field is supported by the Video
+Probe and Commit Control when
+bFormatIndex is 1:
+D0: wKeyFrameRate
+D1: wPFrameRate
+D2: wCompQuality
+D3: wCompWindowSize
+
+D4..(n*8-1): Reserved, set to zero
+
+*Note* D0-D3 are deprecated. Going
+forward from version 1.5, the proper
+means to detect whether a field is
+supported by Probe & Commit is to issue
+a VS_PROBE_CONTROL(GET_CUR)."
+"...","...","...","...","..."
+"9+(p*n-n)","bmaControls(p)","n","Bitmap","For bits D3..0, a bit set to 1 indicates that
+the named field is supported by the Video
+Probe and Commit Control when
+bFormatIndex is p:
+D0: wKeyFrameRate
+D1: wPFrameRate
+D2: wCompQuality
+D3: wCompWindowSize
+
+D4..(n*8-1): Reserved, set to zero"
+
+
+
+p79-80

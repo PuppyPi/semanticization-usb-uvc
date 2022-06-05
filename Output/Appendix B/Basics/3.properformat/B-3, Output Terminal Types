@@ -1,0 +1,11 @@
+"Terminal Type","Code","I/O","Description"
+"OTT_VENDOR_SPECIFIC","0x0300","O","Vendor-Specific Output
+Terminal."
+"OTT_DISPLAY","0x0301","O","Generic display (LCD,
+CRT, etc.)."
+"OTT_MEDIA_TRANSPORT_OUTPUT","0x0302","O","Sequential media. To be
+used only in Media
+Transport Terminal
+Descriptors."
+
+p178

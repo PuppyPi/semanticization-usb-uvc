@@ -1,0 +1,43 @@
+"Offset","Field","Size","Value","Description"
+"0","bLength","1","Constant","6"
+"1","bDescriptorType","1","Number","CS_INTERFACE type"
+"2","bDescriptorSubtype","1","Number","VS_COLORFORMAT"
+"3","bColorPrimaries","1","Number","This defines the color primaries
+and the reference white.
+0: Unspecified (Image
+characteristics unknown)
+1: BT.709, sRGB (default)
+2: BT.470-2 (M)
+3: BT.470-2 (B, G)
+4: SMPTE 170M
+5: SMPTE 240M
+6-255: Reserved"
+"4","bTransferCharacteristics","1","Number","This field defines the opto-
+electronic transfer characteristic of
+the source picture also called the
+gamma function.
+0: Unspecified (Image
+characteristics unknown)
+1: BT.709 (default)
+2: BT.470-2 M
+3: BT.470-2 B, G
+4: SMPTE 170M
+5: SMPTE 240M
+6: Linear (V = Lc)
+7: sRGB (very similar to BT.709)
+8-255: Reserved"
+"5","bMatrixCoefficients","1","Number","Matrix used to compute luma and
+chroma values from the color
+primaries.
+0: Unspecified (Image
+characteristics unknown)
+1: BT.709
+2: FCC
+3: BT.470-2 B, G
+4: SMPTE 170M (BT.601,
+default)
+5: SMPTE 240M
+6-255: Reserved"
+
+
+p83-84

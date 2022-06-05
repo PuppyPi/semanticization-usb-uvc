@@ -1,0 +1,28 @@
+"Offset","Field","Size","Value","Description"
+"0","bLength","1","Number","Size of this descriptor, in bytes: 24+p+n"
+"1","bDescriptorType","1","Constant","CS_INTERFACE descriptor type"
+"2","bDescriptorSubtype","1","Constant","VC_EXTENSION_UNIT descriptor
+subtype"
+"3","bUnitID","1","Number","A non-zero constant that uniquely
+identifies the Unit within the video
+function. This value is used in all requests
+to address this Unit."
+"4","guidExtensionCode","16","GUID","Vendor-specific code identifying the
+Extension Unit"
+"20","bNumControls","1","Number","Number of controls in this extension unit"
+"21","bNrInPins","1","Number","Number of Input Pins of this Unit: p"
+"22","baSourceID(1)","1","Number","ID of the Unit or Terminal to which the
+first Input Pin of this Extension Unit is
+connected."
+"...","...","...","...","..."
+"22+(p-1)","baSourceID(p)","1","Number","ID of the Unit or Terminal to which the
+last Input Pin of this Extension Unit is
+connected."
+"22+p","bControlSize","1","Number","Size of the bmControls field, in bytes: n"
+"23+p","bmControls","n","Bitmap","A bit set to 1 indicates that the mentioned
+Control is supported:
+D(n*8-1)..0: Vendor-specific"
+"23+p+n","iExtension","1","Index","Index of a string descriptor that describes
+this extension unit."
+
+p73-74

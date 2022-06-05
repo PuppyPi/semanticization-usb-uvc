@@ -1,0 +1,18 @@
+"Offset","Field","Size","Value","Description"
+"0","bLength","1","Number","Size of this descriptor, in bytes: 6+p"
+"1","bDescriptorType","1","Constant","CS_INTERFACE descriptor type"
+"2","bDescriptorSubtype","1","Constant","VC_SELECTOR_UNIT descriptor subtype"
+"3","bUnitID","1","Number","A non-zero constant that uniquely identifies
+the Unit within the video function. This
+value is used in all requests to address this
+Unit."
+"4","bNrInPins","1","Number","Number of Input Pins of this Unit: p"
+"5","baSourceID(1)","1","Number","ID of the Unit or Terminal to which the first
+Input Pin of this Selector Unit is connected."
+"...","...","...","...","..."
+"5+(p-1)","baSourceID(p)","1","Number","ID of the Unit or Terminal to which the last
+Input Pin of this Selector Unit is connected."
+"5+p","iSelector","1","Index","Index of a string descriptor, describing the
+Selector Unit."
+
+p68-69
