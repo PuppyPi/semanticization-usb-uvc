@@ -8,8 +8,7 @@
 1: Target compressed size per slice mode
 2: Number of slices per frame mode
 3: Number of Macroblock rows per slice mode
-4-255: Reserved
-"
+4-255: Reserved"
 "2","wSliceConfigSetting","2","Number","The meaning of this field depends on wSliceMode
 mode:
 Mode 0: Maximum number of MBs per slice.
