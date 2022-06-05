@@ -1,5 +1,5 @@
 "Descriptor Subtype","Value"
-"VS_ UNDEFINED","0x00"
+"VS_UNDEFINED","0x00"
 "VS_INPUT_HEADER","0x01"
 "VS_OUTPUT_HEADER","0x02"
 "VS_STILL_IMAGE_FRAME","0x03"

@@ -1,9 +1,6 @@
 ==0==
 . Copy down (from any PDF reader) the titles of each table!
 . Copy down the raw data with PDF Monkey :>
-
-
-==0.1==
 . Separate the rows to make sure lines in multiline cells haven't been made their own entire row! x'D
 . Make sure the header row is captured correctly!
 
@@ -26,4 +23,4 @@ x Remove spurious columns from the original PDF Monkey output (eg, all the "",""
 
 
 ==3==
-+ Correct any typos you've noticed in the original material
+. Correct any typos you've noticed in the original material
