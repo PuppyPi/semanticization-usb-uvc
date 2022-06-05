@@ -21,7 +21,7 @@
 	5: SMPTE 240M
 	6-255: Reserved
 
-"4","bTransferCharacteristics","1","Number",""
+"4","bTransferCharacteristics","1","Number"
 	This field defines the opto-
 	electronic transfer characteristic of
 	the source picture also called the
