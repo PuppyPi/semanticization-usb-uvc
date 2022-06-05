@@ -41,4 +41,4 @@ When using GDR, the encoder should use
 recovery point SEI messages to indicate gradual 
 decoder refresh access points."
 
-"UVC 1.5 Class specification.pdf","MD5:B4BF60666927B23B109549E411C99AF2","139","66.62400000000001","229.24999000000014","455.47599","490.51000999999985"
+"UVC 1.5 Class specification.pdf","MD5:B4BF60666927B23B109549E411C99AF2","139","66.62400000000001","229.24999000000014","455.47599","490.51000999999985","autobounds"

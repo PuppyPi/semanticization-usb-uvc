@@ -11,4 +11,4 @@ GET_INFO, GET_DEF","",""
 "0","wGamma","2","Number","The setting for the attribute of the 
 addressed Gamma control."
 
-"UVC 1.5 Class specification.pdf","MD5:B4BF60666927B23B109549E411C99AF2","115","61.44000000000002","528.910005","479.0085363636363","99.15000000000009"
+"UVC 1.5 Class specification.pdf","MD5:B4BF60666927B23B109549E411C99AF2","115","61.44000000000002","528.910005","479.0085363636363","99.15000000000009","autobounds"

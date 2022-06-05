@@ -41,4 +41,4 @@ endpoint, the host shall accept the value
 indicated by the device."
 "8","wKeyFrameRate","2","Number","Key frame rate in key-frame per video-
 frame units."
-"UVC 1.5 Class specification.pdf","MD5:B4BF60666927B23B109549E411C99AF2","150","61.07999999999999","111.50001999999995","483.13342000000006","608.25998"
+"UVC 1.5 Class specification.pdf","MD5:B4BF60666927B23B109549E411C99AF2","150","61.07999999999999","111.50001999999995","483.13342000000006","608.25998","autobounds"

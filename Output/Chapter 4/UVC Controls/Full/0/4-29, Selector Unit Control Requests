@@ -5,4 +5,4 @@ GET_INFO","",""
 "Offset","Field","Size","Value","Description"
 "0","bSelector","1","Number","The setting for the attribute of the 
 Selector Control."
-"UVC 1.5 Class specification.pdf","MD5:B4BF60666927B23B109549E411C99AF2","109","61.44","176.1800199999999","479.0085363636363","99.02997000000016"
+"UVC 1.5 Class specification.pdf","MD5:B4BF60666927B23B109549E411C99AF2","109","61.44","176.1800199999999","479.0085363636363","99.02997000000016","autobounds"

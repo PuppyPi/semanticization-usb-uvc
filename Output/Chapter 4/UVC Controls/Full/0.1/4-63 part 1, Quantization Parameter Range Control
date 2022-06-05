@@ -7,6 +7,6 @@
 "1","bMaxQp","1","Number","Maximum quantization parameter to use for the frame 
 (both luma and chroma)."
 
-"UVC 1.5 Class specification.pdf","MD5:B4BF60666927B23B109549E411C99AF2","138","66.62400222222224","635.9799949999999","478.8760077777777","69.72001000000006"
+"UVC 1.5 Class specification.pdf","MD5:B4BF60666927B23B109549E411C99AF2","138","66.62400222222224","635.9799949999999","478.8760077777777","69.72001000000006","autobounds"
 
 TODO: it missed the first row!!

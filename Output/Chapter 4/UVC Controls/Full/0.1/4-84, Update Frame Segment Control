@@ -14,4 +14,4 @@ segment in the range to update"
 "1","bEndFrameSegment","1","Number","The zero-based index of the last frame 
 segment in the range to update"
 
-"UVC 1.5 Class specification.pdf","MD5:B4BF60666927B23B109549E411C99AF2","169","61.44000000000001","545.260005","478.95190347826104","127.07999500000008"
+"UVC 1.5 Class specification.pdf","MD5:B4BF60666927B23B109549E411C99AF2","169","61.44000000000001","545.260005","478.95190347826104","127.07999500000008","autobounds"

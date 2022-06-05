@@ -42,4 +42,4 @@ bit_depth_chroma_minus8 + 8."
 and control specific features of a 
 temporally encoded video stream. When 
 it is supported, it is defined in the"
-"UVC 1.5 Class specification.pdf","MD5:B4BF60666927B23B109549E411C99AF2","157","61.08","110.4199900000001","483.29580909090913","609.3400099999999"
+"UVC 1.5 Class specification.pdf","MD5:B4BF60666927B23B109549E411C99AF2","157","61.08","110.4199900000001","483.29580909090913","609.3400099999999","autobounds"

@@ -41,4 +41,4 @@ When used in conjunction with an OUT
 endpoint, this field is set by the host and 
 read only from the device."
 "18","dwMaxVideoFrameSize","4","Number","Maximum video frame or codec-specific"
-"UVC 1.5 Class specification.pdf","MD5:B4BF60666927B23B109549E411C99AF2","153","61.07999999999999","111.50001999999995","483.13342000000006","608.25998"
+"UVC 1.5 Class specification.pdf","MD5:B4BF60666927B23B109549E411C99AF2","153","61.07999999999999","111.50001999999995","483.13342000000006","608.25998","autobounds"

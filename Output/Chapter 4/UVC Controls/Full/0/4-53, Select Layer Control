@@ -21,4 +21,4 @@ stream_id, and interface number. Bits:
  
 When the stream does not support layering or 
 multiples view, bits 0-9 are zero."
-"UVC 1.5 Class specification.pdf","MD5:B4BF60666927B23B109549E411C99AF2","127","66.62400000000001","256.48999000000003","473.60635454545445","332.45001"
+"UVC 1.5 Class specification.pdf","MD5:B4BF60666927B23B109549E411C99AF2","127","66.62400000000001","256.48999000000003","473.60635454545445","332.45001","autobounds"

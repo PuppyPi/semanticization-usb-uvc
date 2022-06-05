@@ -16,4 +16,4 @@ Mode 0: Maximum number of MBs per slice.
 Mode 1: Target size for each slice NALU in bytes.  
 Mode 2: Number of slices per frame. 
 Mode 3: Number of macroblock rows per slice."
-"UVC 1.5 Class specification.pdf","MD5:B4BF60666927B23B109549E411C99AF2","131","66.62400000000001","209.80998999999986","469.03598999999997","243.86000000000013"
+"UVC 1.5 Class specification.pdf","MD5:B4BF60666927B23B109549E411C99AF2","131","66.62400000000001","209.80998999999986","469.03598999999997","243.86000000000013","autobounds"

@@ -14,4 +14,4 @@ supports the resolution, maximum bit rate and CPB size
 set for the stream. For a multi-layer stream this refers to 
 the highest enhancement layer. For multi-view streams 
 this refers to all views."
-"UVC 1.5 Class specification.pdf","MD5:B4BF60666927B23B109549E411C99AF2","145","66.62400000000001","273.52999","469.27598999999987","203.54001499999998"
+"UVC 1.5 Class specification.pdf","MD5:B4BF60666927B23B109549E411C99AF2","145","66.62400000000001","273.52999","469.27598999999987","203.54001499999998","autobounds"

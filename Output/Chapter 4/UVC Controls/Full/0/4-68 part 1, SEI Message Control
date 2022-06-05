@@ -9,4 +9,4 @@ D43: operation_points_not_present
 D44: base_view_temporal_hrd 
 D45: frame_packing_arrangement 
 D63..D46: Reserved. Set to 0"
-"UVC 1.5 Class specification.pdf","MD5:B4BF60666927B23B109549E411C99AF2","144","71.544","567.5800000000002","469.03399333333334","152.1799999999999"
+"UVC 1.5 Class specification.pdf","MD5:B4BF60666927B23B109549E411C99AF2","144","71.544","567.5800000000002","469.03399333333334","152.1799999999999","autobounds"

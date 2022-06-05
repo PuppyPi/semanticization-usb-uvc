@@ -23,4 +23,4 @@ Use this parameter to set/get QP for B frames. The
 details on how to interpret this number is located in 
 the appropriate payload specification."
 
-"UVC 1.5 Class specification.pdf","MD5:B4BF60666927B23B109549E411C99AF2","137","66.62400111111111","396.66999","460.0359888888889","270.75001"
+"UVC 1.5 Class specification.pdf","MD5:B4BF60666927B23B109549E411C99AF2","137","66.62400111111111","396.66999","460.0359888888889","270.75001","autobounds"

@@ -7,4 +7,4 @@ GET_DEF","",""
 "0","wRollAbsolute","2","Signed 
 number","The setting for the attribute of the 
 addressed Roll (Absolute) Control."
-"UVC 1.5 Class specification.pdf","MD5:B4BF60666927B23B109549E411C99AF2","106","61.44","500.82999","479.4784823529413","113.43001499999997"
+"UVC 1.5 Class specification.pdf","MD5:B4BF60666927B23B109549E411C99AF2","106","61.44","500.82999","479.4784823529413","113.43001499999997","autobounds"

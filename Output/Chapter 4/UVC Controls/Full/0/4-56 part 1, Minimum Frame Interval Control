@@ -7,4 +7,4 @@ has the same resolution, profile, and toolset of the
 current stream. 
 This control is applied per stream and ignores any 
 layer information in wLayerOrViewID."
-"UVC 1.5 Class specification.pdf","MD5:B4BF60666927B23B109549E411C99AF2","131","66.62400000000001","599.260005","469.03598999999997","120.49999500000001"
+"UVC 1.5 Class specification.pdf","MD5:B4BF60666927B23B109549E411C99AF2","131","66.62400000000001","599.260005","469.03598999999997","120.49999500000001","autobounds"

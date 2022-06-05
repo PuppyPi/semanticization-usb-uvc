@@ -4,4 +4,4 @@ GET_INFO, GET_DEF","",""
 "Offset","Field","Size","Value","Description"
 "0","wContrast","2","Number","The setting for the attribute of the 
 addressed Contrast control."
-"UVC 1.5 Class specification.pdf","MD5:B4BF60666927B23B109549E411C99AF2","112","61.440000000000005","635.02","478.96283263157915","84.74000000000001"
+"UVC 1.5 Class specification.pdf","MD5:B4BF60666927B23B109549E411C99AF2","112","61.440000000000005","635.02","478.96283263157915","84.74000000000001","autobounds"

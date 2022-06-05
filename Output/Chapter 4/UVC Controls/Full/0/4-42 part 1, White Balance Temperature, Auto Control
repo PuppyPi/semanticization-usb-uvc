@@ -2,4 +2,4 @@
 "0","bWhiteBalanceTe
 mperatureAuto","1","Number","The setting for the attribute of the addressed 
 White Balance Temperature, Auto control."
-"UVC 1.5 Class specification.pdf","MD5:B4BF60666927B23B109549E411C99AF2","116","61.440000000000005","677.38","492.2199899999999","42.380000000000024"
+"UVC 1.5 Class specification.pdf","MD5:B4BF60666927B23B109549E411C99AF2","116","61.440000000000005","677.38","492.2199899999999","42.380000000000024","autobounds"

@@ -42,4 +42,4 @@ spaced evenly between the key frames.
 The other 6 frames, which occur between 
 the key frames and the P frames, will be 
 bi-directional (B) frames."
-"UVC 1.5 Class specification.pdf","MD5:B4BF60666927B23B109549E411C99AF2","151","61.08","111.97998999999993","482.95479200000005","607.7800100000001"
+"UVC 1.5 Class specification.pdf","MD5:B4BF60666927B23B109549E411C99AF2","151","61.08","111.97998999999993","482.95479200000005","607.7800100000001","autobounds"
