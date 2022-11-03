@@ -1,0 +1,5 @@
+Datatypes:
+	"Bitmap" → uint
+	"Boolean" → boolean (0=false, 1=true)
+	"Number" → uint
+	"Signed Number" → sint
